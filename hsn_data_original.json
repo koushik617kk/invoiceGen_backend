@@ -1,0 +1,1916 @@
+[
+    {
+      "code": "0101",
+      "desc": "Live horses, asses, mules and hinnies",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0301",
+      "desc": "Live fish",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0401",
+      "desc": "Fresh milk and pasteurised milk not containing added sugar or other sweetening matter",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0407",
+      "desc": "Birds' eggs, in shell, fresh, preserved or cooked",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0701",
+      "desc": "Potatoes, fresh or chilled",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0702",
+      "desc": "Tomatoes, fresh or chilled",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0703",
+      "desc": "Onions, shallots, garlic, leeks and other alliaceous vegetables fresh or chilled",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0804",
+      "desc": "Dates, figs, pineapples, avocados, guavas, mangoes, and mangosteens fresh",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0805",
+      "desc": "Citrus fruit, such as Oranges, Mandarins, Clementines, Wilkings, Lemons, Limes, Grapefruit",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0808",
+      "desc": "Apples, pears and quinces, fresh",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "0901",
+      "desc": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "0902",
+      "desc": "Tea, whether or not flavoured",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "0904",
+      "desc": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or Pimenta",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "0910",
+      "desc": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1001",
+      "desc": "Wheat and meslin",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "1006",
+      "desc": "Rice (other than branded)",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "10063020",
+      "desc": "Basmati rice (branded and packed)",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1101",
+      "desc": "Wheat or meslin flour",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "1102",
+      "desc": "Cereal flours other than of wheat or meslin i.e. maize flour, rye flour etc.",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "1211",
+      "desc": "Plants and parts of plants used in perfumery, pharmacy or for insecticidal purposes",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1507",
+      "desc": "Soya-bean oil and its fractions",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1509",
+      "desc": "Olive oil and its fractions",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1511",
+      "desc": "Palm oil and its fractions",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1512",
+      "desc": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1513",
+      "desc": "Coconut (copra), palm kernel or babassu oil and fractions thereof",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1515",
+      "desc": "Other fixed vegetable fats and oils including groundnut oil, mustard oil, sesame oil",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1701",
+      "desc": "Cane or beet sugar and chemically pure sucrose in solid form",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "1702",
+      "desc": "Other sugars including chemically pure lactose, maltose, glucose and fructose in solid form",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "1806",
+      "desc": "Chocolate and other food preparations containing cocoa",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "1901",
+      "desc": "Malt extract; food preparations of flour, groats, meal, starch or malt extract",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "1902",
+      "desc": "Pasta whether or not cooked or stuffed or otherwise prepared",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "1904",
+      "desc": "Prepared foods obtained by the swelling or roasting of cereals (e.g. corn flakes)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "1905",
+      "desc": "Bread, pastry, cakes, biscuits and other bakers' wares",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "2001",
+      "desc": "Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "2007",
+      "desc": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "2008",
+      "desc": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "2009",
+      "desc": "Fruit juices (including grape must) and vegetable juices, unfermented",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "2103",
+      "desc": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "2104",
+      "desc": "Soups and broths and preparations therefor; homogenised composite food preparations",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "2106",
+      "desc": "Food preparations not elsewhere specified or included (e.g. protein concentrates, pan masala)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "2201",
+      "desc": "Waters, including natural or artificial mineral waters, not containing added sugar or other sweetening",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "2202",
+      "desc": "Aerated waters, containing added sugar or other sweetening matter or flavoured",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "2501",
+      "desc": "Salt (including table salt and denatured salt)",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "2515",
+      "desc": "Marble, travertine, ecaussine and other calcareous monumental or building stone",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "2516",
+      "desc": "Granite, porphyry, basalt, sandstone and other monumental or building stone",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "2522",
+      "desc": "Quicklime, slaked lime and hydraulic lime",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "2523",
+      "desc": "Portland cement, aluminous cement, slag cement, supersulphate cement and similar hydraulic cements",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "2710",
+      "desc": "Petrol, diesel, ATF and other petroleum oils",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "2844",
+      "desc": "Radioactive chemical elements and radioactive isotopes",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3002",
+      "desc": "Human blood; animal blood prepared for therapeutic; toxins, cultures of micro-organisms; vaccines",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "3003",
+      "desc": "Medicaments consisting of two or more constituents mixed together for therapeutic uses",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "3004",
+      "desc": "Medicaments consisting of mixed or unmixed products for therapeutic or prophylactic uses",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "3005",
+      "desc": "Wadding, gauze, bandages and similar articles (e.g. dressings, adhesive plasters)",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "3006",
+      "desc": "Pharmaceutical goods (e.g. sterile surgical catgut, blood-grouping reagents, dental cements)",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "3208",
+      "desc": "Paints and varnishes based on synthetic polymers dissolved in a non-aqueous medium",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3209",
+      "desc": "Paints and varnishes based on synthetic polymers dispersed in an aqueous medium",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3213",
+      "desc": "Artists', students' or signboard painters' colours, modifying tints, amusement colours",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3214",
+      "desc": "Glaziers' putty, grafting putty, resin cements, caulking compounds; painters' fillings",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "3215",
+      "desc": "Printing ink, writing or drawing ink and other inks",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "3301",
+      "desc": "Essential oils; resinoids; extracted oleoresins; concentrates of essential oils",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3303",
+      "desc": "Perfumes and toilet waters",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3304",
+      "desc": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3305",
+      "desc": "Preparations for use on the hair (shampoo, hair lacquers, waving preparations)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3306",
+      "desc": "Preparations for oral or dental hygiene, including denture fixative pastes and powders",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3307",
+      "desc": "Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3401",
+      "desc": "Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3402",
+      "desc": "Organic surface-active agents (other than soap); washing preparations and cleaning preparations",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3405",
+      "desc": "Polishes and creams for footwear, furniture, floors, coachwork, glass or metal",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3406",
+      "desc": "Candles, tapers and the like",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "3506",
+      "desc": "Prepared glues and other prepared adhesives, not elsewhere specified or included",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3808",
+      "desc": "Insecticides, rodenticides, fungicides, herbicides, for retail sale",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3917",
+      "desc": "Tubes, pipes and hoses, and fittings therefor (for example, joints, elbows, flanges), of plastics",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3919",
+      "desc": "Self-adhesive plates, sheets, film, foil, tape, strip and other flat shapes of plastics",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3920",
+      "desc": "Other plates, sheets, film, foil and strip, of plastics, non-cellular and not reinforced",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3923",
+      "desc": "Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3924",
+      "desc": "Tableware, kitchenware, other household articles and hygienic or toilet articles, of plastics",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3925",
+      "desc": "Builders' ware of plastics, not elsewhere specified or included",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "3926",
+      "desc": "Other articles of plastics and articles of other materials of headings 3901 to 3914",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4011",
+      "desc": "New pneumatic tyres, of rubber",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "4013",
+      "desc": "Inner tubes of rubber",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "4015",
+      "desc": "Articles of apparel and clothing accessories (including gloves, mittens and mitts), for all purposes",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "4016",
+      "desc": "Other articles of vulcanised rubber other than hard rubber",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4202",
+      "desc": "Trunks, suitcases, vanity-cases, brief-cases, school satchels, spectacle cases, wallets, purses",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4203",
+      "desc": "Articles of apparel and clothing accessories, of leather or of composition leather",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "4410",
+      "desc": "Particle board, oriented strand board (OSB) and similar board of wood",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4411",
+      "desc": "Fibreboard of wood or other ligneous materials",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4412",
+      "desc": "Plywood, veneered panels and similar laminated wood",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4418",
+      "desc": "Builders' joinery and carpentry of wood, including cellular wood panels, assembled flooring panels",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4421",
+      "desc": "Other articles of wood",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "4802",
+      "desc": "Uncoated paper and paperboard, for writing, printing; hand-made paper and paperboard (A4 paper)",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "4803",
+      "desc": "Toilet or facial tissue stock, towel or napkin stock and similar paper for household or sanitary",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4811",
+      "desc": "Paper, paperboard, cellulose wadding and webs of cellulose fibres, coated, impregnated, covered",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "4817",
+      "desc": "Envelopes, letter cards, plain postcards and correspondence cards, of paper or paperboard",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4819",
+      "desc": "Cartons, boxes, cases, bags and other packing containers, of paper, paperboard, cellulose wadding",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "4820",
+      "desc": "Registers, account books, note books, order books, receipt books, letter pads, memorandum pads",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "4821",
+      "desc": "Paper or paperboard labels of all kinds, whether or not printed",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "4901",
+      "desc": "Printed books, brochures, leaflets and similar printed matter",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "4902",
+      "desc": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material",
+      "gst": 0,
+      "type": "HSN"
+    },
+    {
+      "code": "4909",
+      "desc": "Printed or illustrated postcards; printed cards bearing personal greetings, messages",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "4911",
+      "desc": "Other printed matter, including printed pictures and photographs; such as posters, calendars, etc.",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "5205",
+      "desc": "Cotton yarn (other than sewing thread), containing 85% or more by weight of cotton",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "5208",
+      "desc": "Woven fabrics of cotton, containing 85% or more by weight of cotton, weighing not more than 200g/m2",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "5407",
+      "desc": "Woven fabrics of synthetic filament yarn, including woven fabrics obtained from materials",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "5702",
+      "desc": "Carpets and other textile floor coverings, woven, not tufted or flocked",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "5703",
+      "desc": "Carpets and other textile floor coverings, tufted, whether or not made up",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6103",
+      "desc": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6104",
+      "desc": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6105",
+      "desc": "Men's or boys' shirts, knitted or crocheted",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6106",
+      "desc": "Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6109",
+      "desc": "T-shirts, singlets and other vests, knitted or crocheted",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6115",
+      "desc": "Panty hose, tights, stockings, socks and other hosiery, knitted or crocheted",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "6201",
+      "desc": "Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6203",
+      "desc": "Men's or boys' suits, ensembles, jackets, blazers, trousers",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6204",
+      "desc": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6205",
+      "desc": "Men's or boys' shirts",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6206",
+      "desc": "Women's or girls' blouses, shirts and shirt-blouses",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6301",
+      "desc": "Blankets and travelling rugs",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6302",
+      "desc": "Bed linen, table linen, toilet linen and kitchen linen",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6304",
+      "desc": "Other furnishing articles, excluding those of heading 9404; such as curtains, drapes, bedspreads",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6305",
+      "desc": "Sacks and bags, of a kind used for the packing of goods",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6307",
+      "desc": "Other made up articles, including dress patterns; such as face masks",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "6402",
+      "desc": "Other footwear with outer soles and uppers of rubber or plastics",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "6403",
+      "desc": "Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of leather",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "6404",
+      "desc": "Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "6802",
+      "desc": "Worked monumental or building stone (except slate) and articles thereof; mosaic cubes; granules",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "6807",
+      "desc": "Articles of asphalt or of similar material (for example, petroleum bitumen or coal tar pitch)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "6901",
+      "desc": "Bricks, blocks, tiles and other ceramic goods of siliceous fossil meals",
+      "gst": 5,
+      "type": "HSN"
+    },
+    {
+      "code": "6904",
+      "desc": "Ceramic building bricks, flooring blocks, support or filler tiles and the like",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "6905",
+      "desc": "Roofing tiles, chimney-pots, cowls, chimney liners, architectural ornaments",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "6907",
+      "desc": "Unglazed ceramic flags and paving, hearth or wall tiles",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "6910",
+      "desc": "Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "6911",
+      "desc": "Tableware, kitchenware, other household articles and toilet articles, of porcelain or china",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "7009",
+      "desc": "Glass mirrors, whether or not framed, including rear-view mirrors",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "7013",
+      "desc": "Glassware of a kind used for table, kitchen, toilet, office, indoor decoration",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "7214",
+      "desc": "Other bars and rods of iron or non-alloy steel (TMT bars)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "7306",
+      "desc": "Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "7308",
+      "desc": "Structures and parts of structures of iron or steel; plates, rods, angles, shapes, sections, tubes",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "7318",
+      "desc": "Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter-pins, washers of iron/steel",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "7321",
+      "desc": "Stoves, ranges, grates, cookers, barbecues, braziers, gas-rings, plate warmers of iron or steel",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "7323",
+      "desc": "Table, kitchen or other household articles and parts thereof, of iron or steel; iron or steel wool",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "7324",
+      "desc": "Sanitary ware and parts thereof, of iron or steel",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "7610",
+      "desc": "Aluminium structures (e.g. bridges, towers, doors, windows) and parts of structures",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "7615",
+      "desc": "Table, kitchen or other household articles and parts thereof, of aluminium; pot scourers of aluminium",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "7616",
+      "desc": "Other articles of aluminium",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8205",
+      "desc": "Hand tools (including glaziers' diamonds), not elsewhere specified or included",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8301",
+      "desc": "Padlocks and locks (key, combination or electrically operated), of base metal",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8302",
+      "desc": "Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, etc.",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8407",
+      "desc": "Spark-ignition reciprocating or rotary internal combustion piston engines",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8408",
+      "desc": "Compression-ignition internal combustion piston engines (diesel or semi-diesel engines)",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8413",
+      "desc": "Pumps for liquids, whether or not fitted with a measuring device; liquid elevators",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8414",
+      "desc": "Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8415",
+      "desc": "Air conditioning machines, comprising a motor-driven fan and elements for changing the temperature",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8418",
+      "desc": "Refrigerators, freezers and other refrigerating or freezing equipment, electric or other",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8421",
+      "desc": "Centrifuges; filtering or purifying machinery for liquids or gases (e.g. water purifiers)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8422",
+      "desc": "Dish washing machines; machinery for cleaning or drying bottles or other containers",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8443",
+      "desc": "Printing machinery used for printing; machines for uses ancillary to printing; printers, photocopiers",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8450",
+      "desc": "Household or laundry-type washing machines, including machines which both wash and dry",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8452",
+      "desc": "Sewing machines, other than book-sewing machines of heading 8440",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "8470",
+      "desc": "Calculating machines and pocket-size data recording machines; accounting machines, cash registers",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8471",
+      "desc": "Automatic data processing machines and units thereof; magnetic or optical readers (e.g. laptops)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8472",
+      "desc": "Other office machines (e.g. hectograph or stencil duplicating machines, addressing machines)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8473",
+      "desc": "Parts and accessories suitable for use solely or principally with machines of headings 8470 to 8472",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8481",
+      "desc": "Taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8504",
+      "desc": "Electrical transformers, static converters (e.g. rectifiers) and inductors; UPS",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8506",
+      "desc": "Primary cells and primary batteries",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8507",
+      "desc": "Electric accumulators, including separators therefor, whether or not rectangular (including square)",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8508",
+      "desc": "Vacuum cleaners",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8509",
+      "desc": "Electro-mechanical domestic appliances, with self-contained electric motor (e.g. food mixers)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8510",
+      "desc": "Shavers, hair clippers and hair-removing appliances, with self-contained electric motor",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8512",
+      "desc": "Electrical lighting or signalling equipment, windscreen wipers, defrosters for cycles or motor vehicles",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8516",
+      "desc": "Electric water heaters, immersion heaters; electric space heating apparatus; hair-dressing apparatus",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8517",
+      "desc": "Telephone sets, including telephones for cellular networks or for other wireless networks",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8518",
+      "desc": "Microphones and stands therefor; loudspeakers; headphones and earphones; audio-frequency electric amps",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8519",
+      "desc": "Sound recording or reproducing apparatus",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8521",
+      "desc": "Video recording or reproducing apparatus, whether or not incorporating a video tuner",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8523",
+      "desc": "Discs, tapes, solid-state non-volatile storage devices (e.g. memory cards, flash drives), smart cards",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8525",
+      "desc": "Transmission apparatus for radio-broadcasting or television; television cameras, digital cameras",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8527",
+      "desc": "Reception apparatus for radio-broadcasting",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8528",
+      "desc": "Monitors and projectors, not incorporating television reception apparatus; television receivers",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8529",
+      "desc": "Parts suitable for use solely or principally with the apparatus of headings 8525 to 8528",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8536",
+      "desc": "Electrical apparatus for switching or protecting electrical circuits (e.g. switches, relays, fuses)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8539",
+      "desc": "Electric filament or discharge lamps, including sealed beam lamp units and ultra-violet or infra-red lamps",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "8543",
+      "desc": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8544",
+      "desc": "Insulated wire, cable and other insulated electric conductors; optical fibre cables",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "8703",
+      "desc": "Motor cars and other motor vehicles principally designed for the transport of persons",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8708",
+      "desc": "Parts and accessories of the motor vehicles of headings 8701 to 8705",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8711",
+      "desc": "Motorcycles (including mopeds) and cycles fitted with an auxiliary motor",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8712",
+      "desc": "Bicycles and other cycles (including delivery tricycles), not motorised",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "8714",
+      "desc": "Parts and accessories of vehicles of headings 8711 to 8713",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "8716",
+      "desc": "Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof",
+      "gst": 28,
+      "type": "HSN"
+    },
+    {
+      "code": "9001",
+      "desc": "Optical fibres and optical fibre bundles; optical fibre cables other than those of heading 8544",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9003",
+      "desc": "Frames and mountings for spectacles, goggles or the like, and parts thereof",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9004",
+      "desc": "Spectacles, goggles and the like, corrective, protective or other",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "9017",
+      "desc": "Drawing, marking-out or mathematical calculating instruments (e.g. drafting machines, pantographs)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9018",
+      "desc": "Instruments and appliances used in medical, surgical, dental or veterinary sciences",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "9102",
+      "desc": "Wrist-watches, pocket-watches and other watches, including stop-watches",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9401",
+      "desc": "Seats (other than those of heading 9402), whether or not convertible into beds",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9403",
+      "desc": "Other furniture and parts thereof (e.g. office furniture, kitchen furniture, bedroom furniture)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9404",
+      "desc": "Mattress supports; articles of bedding and similar furnishing (e.g. mattresses, quilts, pillows)",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9405",
+      "desc": "Lamps and lighting fittings including searchlights and spotlights and parts thereof",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "9503",
+      "desc": "Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "9504",
+      "desc": "Video game consoles and machines, articles for funfair, table or parlour games",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9506",
+      "desc": "Articles and equipment for general physical exercise, gymnastics, athletics, other sports",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "9603",
+      "desc": "Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles)",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "9608",
+      "desc": "Ball point pens; felt tipped and other porous-tipped pens and markers; fountain pens, stylograph pens",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9609",
+      "desc": "Pencils, crayons, pencil leads, pastels, drawing charcoals, writing or drawing chalks",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "9612",
+      "desc": "Typewriter or similar ribbons, inked or otherwise prepared for giving impressions, whether or not on spools",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9613",
+      "desc": "Cigarette lighters and other lighters, whether or not mechanical or electrical, and parts thereof",
+      "gst": 18,
+      "type": "HSN"
+    },
+    {
+      "code": "9619",
+      "desc": "Sanitary towels (pads) and tampons, napkins and napkin liners for babies and similar articles",
+      "gst": 12,
+      "type": "HSN"
+    },
+    {
+      "code": "995411",
+      "desc": "Construction services of single dwelling or multi-dwelling or multi-storied residential buildings",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "995413",
+      "desc": "Construction services of industrial buildings such as buildings used for production activities",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "995414",
+      "desc": "Construction services of commercial buildings such as office buildings, exhibition & marriage halls",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "995421",
+      "desc": "General construction services of highways, streets, roads, railways and airfield runways",
+      "gst": 12,
+      "type": "SAC"
+    },
+    {
+      "code": "995422",
+      "desc": "General construction services of bridges, elevated highways, tunnels and subways",
+      "gst": 12,
+      "type": "SAC"
+    },
+    {
+      "code": "995426",
+      "desc": "General construction services of water and sewage treatment plants and pumping stations",
+      "gst": 12,
+      "type": "SAC"
+    },
+    {
+      "code": "995432",
+      "desc": "Site preparation services, including blasting and rock removal, excavation, and earthmoving services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "995461",
+      "desc": "Plumbing, drainage and sanitation installation services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "995462",
+      "desc": "Electrical installation services including electrical wiring & fitting, fire alarm installation",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "995464",
+      "desc": "Air conditioning and heating systems installation services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "995471",
+      "desc": "Painting and decorating services of buildings",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "995473",
+      "desc": "Tiling, floor laying, and wall covering services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "995474",
+      "desc": "Carpentry and joinery services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "996111",
+      "desc": "Services provided by a director of a company or a body corporate to said company or body corporate",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "996311",
+      "desc": "Services provided by restaurants, cafes and similar eating facilities including takeaway services",
+      "gst": 5,
+      "type": "SAC"
+    },
+    {
+      "code": "996321",
+      "desc": "Catering services in exhibition halls, events, marriage halls and other outdoor/indoor functions",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "996331",
+      "desc": "Room or unit accommodation services provided by hotels, inns, guest houses, clubs",
+      "gst": 12,
+      "type": "SAC"
+    },
+    {
+      "code": "996411",
+      "desc": "Local land transport services of passengers by railways, metro, monorail, bus, tramway, taxis, etc.",
+      "gst": 5,
+      "type": "SAC"
+    },
+    {
+      "code": "996421",
+      "desc": "Domestic air transport services of passengers",
+      "gst": 5,
+      "type": "SAC"
+    },
+    {
+      "code": "996511",
+      "desc": "Road transport services of goods including letters, parcels, by refrigerator vehicles, trucks, trailers",
+      "gst": 5,
+      "type": "SAC"
+    },
+    {
+      "code": "996513",
+      "desc": "Rail transport services of goods including letters, parcels, household & furniture, containers",
+      "gst": 5,
+      "type": "SAC"
+    },
+    {
+      "code": "996601",
+      "desc": "Rental services of motor vehicles including cars, commercial vehicles, buses, trucks with operator",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "996711",
+      "desc": "Cargo handling services for road transport",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "996712",
+      "desc": "Cargo handling services for rail transport",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "996719",
+      "desc": "Other cargo and baggage handling services, elsewhere not specified",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "996721",
+      "desc": "Storage and warehousing services of farm produce",
+      "gst": 0,
+      "type": "SAC"
+    },
+    {
+      "code": "996729",
+      "desc": "Storage and warehousing services of other goods including furniture, automobiles, gas and oil, etc.",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "996811",
+      "desc": "Postal services including postcard, envelope, inland letter, etc.",
+      "gst": 0,
+      "type": "SAC"
+    },
+    {
+      "code": "996812",
+      "desc": "Courier services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "996911",
+      "desc": "Domestic delivery services of electricity",
+      "gst": 0,
+      "type": "SAC"
+    },
+    {
+      "code": "997111",
+      "desc": "Central bank services such as administering monetary policy",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997113",
+      "desc": "Services of accepting deposits or granting loans by banking companies, financial institutions",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997131",
+      "desc": "Life insurance services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997133",
+      "desc": "General insurance services including fire, motor, marine and aviation",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997151",
+      "desc": "Services related to the foreign exchange",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997152",
+      "desc": "Financial consultancy services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997154",
+      "desc": "Brokerage and related securities and commodities services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997211",
+      "desc": "Services of buying, selling, renting and operating of self-owned or leased residential buildings",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997212",
+      "desc": "Services of buying, selling, renting and operating of self-owned or leased non-residential buildings",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997221",
+      "desc": "Real estate brokerage services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997311",
+      "desc": "Rental or leasing services involving own or leased motor vehicles without operator",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "997319",
+      "desc": "Rental or leasing of other machinery and equipment without operator",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998111",
+      "desc": "Research and development services in natural sciences",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998211",
+      "desc": "Legal advisory and representation services concerning criminal law",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998213",
+      "desc": "Legal advisory and representation services concerning other fields of law",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998214",
+      "desc": "Legal documentation and certification services concerning patents, copyrights and other intellectual property",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998221",
+      "desc": "Financial auditing services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998222",
+      "desc": "Accounting and bookkeeping services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998223",
+      "desc": "Tax consultancy and preparation services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998224",
+      "desc": "Insolvency and receivership services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998311",
+      "desc": "Management consulting and management services including financial, strategic, human resources",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998312",
+      "desc": "Business consulting services including public relations services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998313",
+      "desc": "Information technology (IT) consulting and advisory services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998314",
+      "desc": "Information technology (IT) design and development services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998315",
+      "desc": "Hosting and information technology (IT) infrastructure provisioning services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998316",
+      "desc": "IT infrastructure and network management services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998319",
+      "desc": "Other information technology services n.e.c.",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998321",
+      "desc": "Architectural advisory services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998331",
+      "desc": "Engineering advisory services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998332",
+      "desc": "Engineering design services for industrial processes and production",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998341",
+      "desc": "Geological and geophysical consulting services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998346",
+      "desc": "Technical testing and analysis services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998361",
+      "desc": "Advertising services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998362",
+      "desc": "Purchase or sale of advertising space or time",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998363",
+      "desc": "Market research and public opinion polling services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998371",
+      "desc": "Photographic and videographic processing services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998381",
+      "desc": "Specialty design services including interior design, fashion design and industrial design",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998391",
+      "desc": "Services of performing artists including actors, musicians, singers, dancers, speakers",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998399",
+      "desc": "Other professional, technical and business services n.e.c.",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998431",
+      "desc": "Telephony, audio conferencing and video conferencing services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998439",
+      "desc": "Other online content n.e.c.",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998511",
+      "desc": "Employment services including personnel search, referral service",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998513",
+      "desc": "Contract staffing services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998521",
+      "desc": "Investigation services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998522",
+      "desc": "Security guard and patrol services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998529",
+      "desc": "Other security services including security alarm monitoring services, armored car services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998531",
+      "desc": "Disinfecting and exterminating services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998532",
+      "desc": "Window cleaning services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998533",
+      "desc": "General cleaning services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998598",
+      "desc": "Other business support services n.e.c.",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998599",
+      "desc": "Sponsorship services and brand promotion services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998611",
+      "desc": "Support services to crop production",
+      "gst": 0,
+      "type": "SAC"
+    },
+    {
+      "code": "998711",
+      "desc": "Maintenance and repair services of fabricated metal products",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998713",
+      "desc": "Repair services of computers and peripheral equipment",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998714",
+      "desc": "Maintenance and repair of office and accounting machinery",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998715",
+      "desc": "Repair services for household appliances and equipment",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998716",
+      "desc": "Repair services of footwear and leather goods",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998717",
+      "desc": "Maintenance and repair services of furniture",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998719",
+      "desc": "Maintenance and repair services of other goods n.e.c.",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998721",
+      "desc": "Maintenance and repair services for motor vehicles and parts thereof",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998722",
+      "desc": "Repair services for motorcycles and scooters and parts thereof",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "998821",
+      "desc": "Job work for textile, wearing apparel and leather products",
+      "gst": 5,
+      "type": "SAC"
+    },
+    {
+      "code": "998911",
+      "desc": "Services by way of printing of newspapers",
+      "gst": 12,
+      "type": "SAC"
+    },
+    {
+      "code": "998912",
+      "desc": "Printing of books (including Braille books), journals and periodicals",
+      "gst": 12,
+      "type": "SAC"
+    },
+    {
+      "code": "998931",
+      "desc": "Moulding, extruding, and forming services for plastic and rubber",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999293",
+      "desc": "Commercial training and coaching services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999294",
+      "desc": "Other education and training services n.e.c.",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999421",
+      "desc": "Sewage treatment and disposal services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999431",
+      "desc": "Non-hazardous waste collection services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999591",
+      "desc": "Library services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999592",
+      "desc": "Archives services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999611",
+      "desc": "Services of performing arts facilities",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999631",
+      "desc": "Admission services to performing arts events",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999641",
+      "desc": "Services of sports facilities",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999642",
+      "desc": "Services of sports clubs",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999661",
+      "desc": "Admission services to entertainment events",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999723",
+      "desc": "Beauty treatment services including waxing, manicure, pedicure, facial",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999729",
+      "desc": "Other personal grooming services including tattooing, piercing",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999792",
+      "desc": "Event and conference management services",
+      "gst": 18,
+      "type": "SAC"
+    },
+    {
+      "code": "999794",
+      "desc": "Astrology and spiritual services",
+      "gst": 18,
+      "type": "SAC"
+    }
+  ]
