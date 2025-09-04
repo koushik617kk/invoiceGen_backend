@@ -1,5 +1,5 @@
 from datetime import datetime, date
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Float, Date, Text, Boolean
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Float, Date, Text, Boolean, UniqueConstraint
 from sqlalchemy.orm import relationship
 
 try:
@@ -97,7 +97,7 @@ class Invoice(Base):
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
     
     # Invoice Identification
-    invoice_number = Column(String, unique=True, index=True, nullable=False)
+    invoice_number = Column(String, index=True, nullable=False)
     financial_year = Column(String, nullable=False)  # e.g., "2024-25"
     date = Column(Date, default=date.today)
     due_date = Column(Date, nullable=True)
@@ -149,6 +149,11 @@ class Invoice(Base):
     template = relationship("InvoiceTemplate")
     items = relationship("InvoiceItem", back_populates="invoice", cascade="all, delete-orphan")
     payments = relationship("Payment", back_populates="invoice", cascade="all, delete-orphan")
+    
+    # Composite unique constraint: invoice_number must be unique per user
+    __table_args__ = (
+        UniqueConstraint('user_id', 'invoice_number', name='uq_user_invoice_number'),
+    )
 
 
 class InvoiceItem(Base):
@@ -267,11 +272,15 @@ class ServiceTemplate(Base):
     business_profile_id = Column(Integer, ForeignKey("business_profiles.id"), nullable=False)
     
     # Service Details - Aligned with InvoiceItem
-    description = Column(String, nullable=False)  # Changed from service_name to description
+    template_name = Column(String, nullable=False)  # NEW: Generic name for template selection
+    description = Column(String, nullable=False)  # Specific description for invoice
     sac_code = Column(String, nullable=False)
     gst_rate = Column(Float, nullable=False)
     hsn_code = Column(String, nullable=True)  # Added for goods later
     unit = Column(String, default="Nos")  # Added default unit
+    
+    # Template Type - NEW FIELD
+    template_type = Column(String, default="service")  # "service" or "product"
     
     # Pricing
     base_rate = Column(Float, nullable=False)  # This will be the default rate

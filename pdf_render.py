@@ -17,7 +17,7 @@ def render_invoice_pdf(invoice, business_profile=None, template=None) -> bytes:
 def render_default_pdf(invoice, business_profile=None) -> bytes:
     """
     Default PDF generation using ReportLab.
-    Clean, professional invoice design.
+    Clean, professional invoice design with perfect alignment.
     """
     buffer = BytesIO()
     doc = SimpleDocTemplate(
@@ -43,7 +43,6 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
     company_header = []
     if business_profile and business_profile.logo_path and os.path.exists(business_profile.logo_path):
         try:
-            from reportlab.platypus import Image
             logo = Image(business_profile.logo_path, width=80, height=40)
             company_header.append(logo)
         except:
@@ -52,26 +51,26 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
     company_header.append(Paragraph(business_profile.business_name if business_profile and business_profile.business_name else 'invoiceGen', 
                                    ParagraphStyle('company_name', parent=h1, fontSize=24, textColor=primary_color, spaceAfter=6)))
     
-    # Professional header layout - PERFECT ALIGNMENT with other sections
+    # Professional header layout - PERFECT ALIGNMENT
     header_tbl = Table([
         [company_header, 
          [Paragraph('Tax Invoice', ParagraphStyle('invoice_title', parent=h4, fontSize=18, textColor=primary_color, alignment=2)),
           Paragraph(f'Place of Supply: {invoice.place_of_supply or "Not specified"}', 
                    ParagraphStyle('subtitle', parent=normal, fontSize=10, textColor=colors.HexColor('#6b7280'), alignment=2))]
         ]
-    ], colWidths=[doc.width*0.65, doc.width*0.35])  # Back to original for perfect alignment
+    ], colWidths=[doc.width*0.65, doc.width*0.35])
     
     header_tbl.setStyle(TableStyle([
         ('VALIGN', (0,0), (-1,-1), 'TOP'),
-        ('BOTTOMPADDING', (0,0), (-1,-1), 8),  # Reduced from 12
+        ('BOTTOMPADDING', (0,0), (-1,-1), 8),
         ('ALIGN', (1,0), (1,0), 'RIGHT'),
-        ('LEFTPADDING', (0,0), (-1,-1), 0),  # Start from left edge
-        ('RIGHTPADDING', (0,0), (-1,-1), 0),  # Extend to right edge
+        ('LEFTPADDING', (0,0), (-1,-1), 8),  # FIXED: Add left padding
+        ('RIGHTPADDING', (0,0), (-1,-1), 8), # FIXED: Add right padding
     ]))
     elems.append(header_tbl)
-    elems.append(Spacer(1, 6))  # Reduced from 10
+    elems.append(Spacer(1, 6))
     
-    # Clean GST Compliance Header - NO DECORATIVE ELEMENTS
+    # FIXED: GST Compliance Header - Consistent with other sections
     if business_profile:
         gst_info = []
         if business_profile.pan:
@@ -80,20 +79,21 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
             gst_info.append(f"Financial Year: {invoice.financial_year}")
         
         if gst_info:
-            gst_header_tbl = Table([gst_info], colWidths=[doc.width])
+            # Use same column structure as header for perfect alignment
+            gst_header_tbl = Table([gst_info, []], colWidths=[doc.width*0.65, doc.width*0.35])
             gst_header_tbl.setStyle(TableStyle([
-                ('ALIGN', (0,0), (-1,-1), 'CENTER'),
+                ('ALIGN', (0,0), (0,0), 'LEFT'),  # PAN info left-aligned like other content
                 ('FONTNAME', (0,0), (-1,-1), 'Helvetica-Bold'),
                 ('FONTSIZE', (0,0), (-1,-1), 10),
                 ('TEXTCOLOR', (0,0), (-1,-1), colors.HexColor('#374151')),
                 ('BACKGROUND', (0,0), (-1,-1), colors.HexColor('#f8fafc')),
-                ('LEFTPADDING', (0,0), (-1,-1), 16),
-                ('RIGHTPADDING', (0,0), (-1,-1), 16),
-                ('TOPPADDING', (0,0), (-1,-1), 6),  # Reduced from 8
-                ('BOTTOMPADDING', (0,0), (-1,-1), 6),  # Reduced from 8
+                ('LEFTPADDING', (0,0), (-1,-1), 8),  # FIXED: Match header padding
+                ('RIGHTPADDING', (0,0), (-1,-1), 8), # FIXED: Match header padding
+                ('TOPPADDING', (0,0), (-1,-1), 8),
+                ('BOTTOMPADDING', (0,0), (-1,-1), 8),
             ]))
             elems.append(gst_header_tbl)
-            elems.append(Spacer(1, 8))  # Reduced from 12
+            elems.append(Spacer(1, 6))
 
     seller_name = getattr(business_profile, 'business_name', '') or ''
     seller_gstin = getattr(invoice, 'seller_gstin', '') or (getattr(business_profile, 'gstin', '') or '')
@@ -129,19 +129,19 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
     if buyer.email:
         buyer_cell.append(Paragraph(f'Email: {buyer.email}', ParagraphStyle('contact', parent=small)))
     
-    party_tbl = Table([[seller_cell, buyer_cell]], colWidths=[doc.width/2, doc.width/2])
+    party_tbl = Table([[seller_cell, buyer_cell]], colWidths=[doc.width*0.65, doc.width*0.35])
     party_tbl.setStyle(TableStyle([
         ('VALIGN', (0,0), (-1,-1), 'TOP'),
         ('BACKGROUND', (0,0), (0,0), colors.HexColor('#f8fafc')),
         ('BACKGROUND', (1,0), (1,0), colors.HexColor('#f8fafc')),
-        ('LEFTPADDING', (0,0), (-1,-1), 16),
-        ('RIGHTPADDING', (0,0), (-1,-1), 16),
-        ('TOPPADDING', (0,0), (-1,-1), 8),  # Reduced from 12
-        ('BOTTOMPADDING', (0,0), (-1,-1), 8),  # Reduced from 12
-        ('ALIGN', (0,0), (-1,-1), 'LEFT'),  # Left align for consistent positioning
+        ('LEFTPADDING', (0,0), (-1,-1), 8),  # FIXED: Consistent with header
+        ('RIGHTPADDING', (0,0), (-1,-1), 8), # FIXED: Consistent with header
+        ('TOPPADDING', (0,0), (-1,-1), 8),
+        ('BOTTOMPADDING', (0,0), (-1,-1), 8),
+        ('ALIGN', (0,0), (-1,-1), 'LEFT'),
     ]))
     elems.append(party_tbl)
-    elems.append(Spacer(1, 8))  # Reduced from 12
+    elems.append(Spacer(1, 8))
 
     # Professional Invoice Meta Information
     meta_data = [
@@ -152,34 +152,20 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
          Paragraph(f'<b>Financial Year:</b> {invoice.financial_year}', ParagraphStyle('meta_value', parent=normal, fontSize=10))]
     ]
     
-    # Add GST compliance info if available
-    if invoice.reverse_charge or invoice.ecommerce_gstin or invoice.export_type:
-        gst_info = []
-        if invoice.reverse_charge:
-            gst_info.append('🔄 Reverse Charge: Yes')
-        if invoice.ecommerce_gstin:
-            gst_info.append(f'🛒 E-commerce GSTIN: {invoice.ecommerce_gstin}')
-        if invoice.export_type:
-            gst_info.append(f'🌍 Export Type: {invoice.export_type}')
-        
-        if gst_info:
-            meta_data.append([Paragraph(' | '.join(gst_info), ParagraphStyle('gst_info', parent=small, textColor=colors.HexColor('#059669'))), 
-                            Paragraph('', normal)])
-    
-    meta_tbl = Table(meta_data, colWidths=[doc.width/2, doc.width/2])
+    meta_tbl = Table(meta_data, colWidths=[doc.width*0.65, doc.width*0.35])
     meta_tbl.setStyle(TableStyle([
         ('VALIGN', (0,0), (-1,-1), 'MIDDLE'),
         ('BACKGROUND', (0,0), (-1,-1), colors.HexColor('#f8fafc')),
-        ('LEFTPADDING', (0,0), (-1,-1), 12),
-        ('RIGHTPADDING', (0,0), (-1,-1), 12),
-        ('TOPPADDING', (0,0), (-1,-1), 8),  # Reduced from 10
-        ('BOTTOMPADDING', (0,0), (-1,-1), 8),  # Reduced from 10
-        ('ALIGN', (0,0), (-1,-1), 'LEFT'),  # Left align for consistent positioning
+        ('LEFTPADDING', (0,0), (-1,-1), 8),  # FIXED: Consistent with other sections
+        ('RIGHTPADDING', (0,0), (-1,-1), 8), # FIXED: Consistent with other sections
+        ('TOPPADDING', (0,0), (-1,-1), 8),
+        ('BOTTOMPADDING', (0,0), (-1,-1), 8),
+        ('ALIGN', (0,0), (-1,-1), 'LEFT'),
     ]))
     elems.append(meta_tbl)
-    elems.append(Spacer(1, 8))  # Reduced from 12
+    elems.append(Spacer(1, 8))
 
-    # Professional Items Table - FIXED COLUMN WIDTHS for better visibility
+    # FIXED: Professional Items Table - PERFECT ALIGNMENT with other sections
     data = [[
         Paragraph('<b>Description</b>', ParagraphStyle('header', parent=normal, fontSize=10, textColor=colors.white)), 
         Paragraph('<b>HSN/SAC</b>', ParagraphStyle('header', parent=normal, fontSize=10, textColor=colors.white)), 
@@ -219,9 +205,9 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
             Paragraph(f'Rs.{line_total:.2f}', ParagraphStyle('item_number', parent=small, fontSize=9, wordWrap='LTR', splitLongWords=False))
         ])
     
-    # PERFECT ALIGNMENT - All tables use exactly the same width
+    # FIXED: PERFECT ALIGNMENT - Items table uses EXACT same total width as other tables (100%)
     items_tbl = Table(data, colWidths=[
-        doc.width*0.20,  # Description
+        doc.width*0.19,  # Description (reduced from 0.20)
         doc.width*0.12,  # HSN/SAC
         doc.width*0.08,  # Unit
         doc.width*0.08,  # Qty
@@ -229,41 +215,41 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
         doc.width*0.12,  # Discount
         doc.width*0.12,  # Taxable Value
         doc.width*0.08,  # GST %
-        doc.width*0.12   # Line Total
+        doc.width*0.11   # Line Total (reduced from 0.12)
     ])
     
-    # COMPLETELY CLEAN table styling - ABSOLUTELY NO DECORATIVE ELEMENTS - PERFECT ALIGNMENT
+    # Clean table styling with perfect alignment
     items_tbl.setStyle(TableStyle([
         # Header row styling
         ('BACKGROUND', (0,0), (-1,0), primary_color),
         ('TEXTCOLOR', (0,0), (-1,0), colors.white),
-        ('FONTNAME', (0,0), (-1,0), 'Helvetica-Bold'),
-        ('FONTSIZE', (0,0), (-1,0), 10),
+        ('FONTNAME', (0,0), (-1,-1), 'Helvetica-Bold'),
+        ('FONTSIZE', (0,0), (-1,-1), 10),
         
         # Data rows styling
         ('VALIGN', (0,0), (-1,-1), 'MIDDLE'),
         ('ALIGN', (3,1), (-1,-1), 'RIGHT'),  # Right align numeric columns
         ('ALIGN', (0,1), (2,-1), 'CENTER'),  # Center align text columns
         
-        # ABSOLUTELY NO BORDERS - Pure clean design
-        ('LEFTPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-        ('RIGHTPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-        ('TOPPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-        ('BOTTOMPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
+        # FIXED: Consistent padding with other sections
+        ('LEFTPADDING', (0,0), (-1,-1), 8),  # FIXED: Match other sections
+        ('RIGHTPADDING', (0,0), (-1,-1), 8), # FIXED: Match other sections
+        ('TOPPADDING', (0,0), (-1,-1), 4),
+        ('BOTTOMPADDING', (0,0), (-1,-1), 4),
         
         # Alternating row colors for better readability
         ('ROWBACKGROUNDS', (1,1), (-1,-1), [colors.white, colors.HexColor('#f9fafb')]),
         
-        # PREVENT TEXT WRAPPING - Keep text on single line
+        # Prevent text wrapping
         ('WORDWRAP', (0,0), (-1,-1), False),
         
-        # PERFECT ALIGNMENT - Consistent positioning
-        ('ALIGN', (0,0), (-1,-1), 'LEFT'),  # Left align for consistent positioning
+        # Perfect alignment
+        ('ALIGN', (0,0), (-1,-1), 'LEFT'),
     ]))
     elems.append(items_tbl)
-    elems.append(Spacer(1, 8))  # Reduced from 12
+    elems.append(Spacer(1, 8))
 
-    # Professional Totals Section - Clear CGST/SGST Separation
+    # Professional Totals Section
     totals_data = [
         [Paragraph('Subtotal:', ParagraphStyle('total_label', parent=normal, fontSize=11, textColor=colors.HexColor('#374151'))), 
          Paragraph(f'Rs.{invoice.subtotal:.2f}', ParagraphStyle('total_value', parent=normal, fontSize=11, textColor=colors.HexColor('#374151')))]
@@ -280,7 +266,7 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
             Paragraph(f'Rs.{invoice.taxable_value:.2f}', ParagraphStyle('total_value', parent=normal, fontSize=11, textColor=colors.HexColor('#374151')))
         ])
     
-    # Clear GST breakdown - CGST and SGST are separate
+    # Clear GST breakdown
     if invoice.cgst > 0:
         totals_data.append([
             Paragraph('CGST (9%):', ParagraphStyle('gst_label', parent=normal, fontSize=11, textColor=colors.HexColor('#059669'))), 
@@ -317,97 +303,150 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
             Paragraph(f'<i>{invoice.total_in_words}</i>', ParagraphStyle('words_value', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280')))
         ])
     
-    totals_tbl = Table(totals_data, colWidths=[doc.width*0.65, doc.width*0.35])  # Perfect alignment with header and items table
+    # FIXED: Perfect alignment with header and items table
+    totals_tbl = Table(totals_data, colWidths=[doc.width*0.65, doc.width*0.35])
     totals_tbl.setStyle(TableStyle([
         ('ALIGN', (0,0), (0,-1), 'RIGHT'),
         ('ALIGN', (1,0), (1,-1), 'RIGHT'),
         ('VALIGN', (0,0), (-1,-1), 'MIDDLE'),
         ('BACKGROUND', (0,0), (-1,-1), colors.HexColor('#f8fafc')),
-        ('LEFTPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-        ('RIGHTPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-        ('TOPPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-        ('BOTTOMPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-        ('ALIGN', (0,0), (-1,-1), 'LEFT'),  # Left align for consistent positioning
+        ('LEFTPADDING', (0,0), (-1,-1), 8),  # FIXED: Match other sections
+        ('RIGHTPADDING', (0,0), (-1,-1), 8), # FIXED: Match other sections
+        ('TOPPADDING', (0,0), (-1,-1), 4),
+        ('BOTTOMPADDING', (0,0), (-1,-1), 4),
+        ('ALIGN', (0,0), (-1,-1), 'LEFT'),
     ]))
     elems.append(totals_tbl)
     
     # Add business profile information
     if business_profile:
-        elems.append(Spacer(1, 8))  # Reduced from 12
+        elems.append(Spacer(1, 8))
         
-        # IMPROVED Payment Details Section - Better layout and design
-        payment_details = []
+        # ENHANCED: Professional Payment Details Section
+        payment_data = []
         
-        # Payment Details Header
-        payment_details.append(Paragraph('<b>Payment Details:</b>', ParagraphStyle('section_title', parent=normal, fontSize=12, textColor=primary_color)))
-        
-        # Create a 2-column layout for payment details
-        payment_left = []
-        payment_right = []
-        
-        # Left column
-        if business_profile.bank_account_name:
-            payment_left.append(Paragraph(f'<b>Account Name:</b> {business_profile.bank_account_name}', ParagraphStyle('detail', parent=small, fontSize=9)))
+        # Create a clean, organized payment details table
+        if business_profile.bank_account_name or business_profile.bank_name or business_profile.bank_account_number or business_profile.bank_ifsc or business_profile.upi_id:
+            payment_data.append([
+                Paragraph('<b>Payment Details</b>', ParagraphStyle('section_title', parent=normal, fontSize=12, textColor=primary_color)),
+                Paragraph('', normal)  # Empty cell for alignment
+            ])
+            
+            # Bank details in a clean format
+            if business_profile.bank_account_name:
+                payment_data.append([
+                    Paragraph('Account Name:', ParagraphStyle('label', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280'))),
+                    Paragraph(business_profile.bank_account_name, ParagraphStyle('value', parent=small, fontSize=9, textColor=colors.HexColor('#374151')))
+                ])
+            
         if business_profile.bank_name:
-            payment_left.append(Paragraph(f'<b>Bank:</b> {business_profile.bank_name}', ParagraphStyle('detail', parent=small, fontSize=9)))
+                payment_data.append([
+                    Paragraph('Bank Name:', ParagraphStyle('label', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280'))),
+                    Paragraph(business_profile.bank_name, ParagraphStyle('value', parent=small, fontSize=9, textColor=colors.HexColor('#374151')))
+                ])
+            
         if business_profile.bank_branch:
-            payment_left.append(Paragraph(f'<b>Branch:</b> {business_profile.bank_branch}', ParagraphStyle('detail', parent=small, fontSize=9)))
+                payment_data.append([
+                    Paragraph('Branch:', ParagraphStyle('label', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280'))),
+                    Paragraph(business_profile.bank_branch, ParagraphStyle('value', parent=small, fontSize=9, textColor=colors.HexColor('#374151')))
+                ])
         
-        # Right column
         if business_profile.bank_account_number:
-            payment_right.append(Paragraph(f'<b>Account No:</b> {business_profile.bank_account_number}', ParagraphStyle('detail', parent=small, fontSize=9)))
+                payment_data.append([
+                    Paragraph('Account Number:', ParagraphStyle('label', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280'))),
+                    Paragraph(business_profile.bank_account_number, ParagraphStyle('value', parent=small, fontSize=9, textColor=colors.HexColor('#374151')))
+                ])
+            
         if business_profile.bank_ifsc:
-            payment_right.append(Paragraph(f'<b>IFSC:</b> {business_profile.bank_ifsc}', ParagraphStyle('detail', parent=small, fontSize=9)))
+                payment_data.append([
+                    Paragraph('IFSC Code:', ParagraphStyle('label', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280'))),
+                    Paragraph(business_profile.bank_ifsc, ParagraphStyle('value', parent=small, fontSize=9, textColor=colors.HexColor('#374151')))
+                ])
+            
         if business_profile.upi_id:
-            payment_right.append(Paragraph(f'<b>UPI ID:</b> {business_profile.upi_id}', ParagraphStyle('detail', parent=small, fontSize=9)))
+                payment_data.append([
+                    Paragraph('UPI ID:', ParagraphStyle('label', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280'))),
+                    Paragraph(business_profile.upi_id, ParagraphStyle('value', parent=small, fontSize=9, textColor=colors.HexColor('#374151')))
+                ])
         
         # Cash Payment Information
         if business_profile.accepts_cash and business_profile.accepts_cash.upper() == 'YES':
             if business_profile.cash_note:
-                payment_right.append(Paragraph(f'<b>Cash Payment:</b> {business_profile.cash_note}', ParagraphStyle('detail', parent=small, fontSize=9)))
+                    payment_data.append([
+                        Paragraph('Cash Payment:', ParagraphStyle('label', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280'))),
+                        Paragraph(business_profile.cash_note, ParagraphStyle('value', parent=small, fontSize=9, textColor=colors.HexColor('#374151')))
+                    ])
         
-        # Create payment table with 2 columns - PERFECT ALIGNMENT
-        payment_tbl = Table([[payment_left, payment_right]], colWidths=[doc.width*0.65, doc.width*0.35])  # Same width as other tables
+        # Create a clean, professional payment table only if there's data
+        if payment_data:
+            payment_tbl = Table(payment_data, colWidths=[doc.width*0.3, doc.width*0.7])
         payment_tbl.setStyle(TableStyle([
-            ('BACKGROUND', (0,0), (-1,-1), colors.HexColor('#f8fafc')),
-            ('LEFTPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-            ('RIGHTPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-            ('TOPPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-            ('BOTTOMPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
+                    ('BACKGROUND', (0,0), (0,0), colors.HexColor('#f1f5f9')),  # Header background
+                    ('BACKGROUND', (0,1), (-1,-1), colors.HexColor('#ffffff')),  # Data background
+                    ('LEFTPADDING', (0,0), (-1,-1), 12),  # More padding for better spacing
+                    ('RIGHTPADDING', (0,0), (-1,-1), 12),
+                    ('TOPPADDING', (0,0), (-1,-1), 6),
+                    ('BOTTOMPADDING', (0,0), (-1,-1), 6),
             ('VALIGN', (0,0), (-1,-1), 'TOP'),
+                    ('ALIGN', (0,0), (0,-1), 'LEFT'),  # Labels left-aligned
+                    ('ALIGN', (1,0), (1,-1), 'LEFT'),  # Values left-aligned
+                    ('FONTNAME', (0,0), (0,0), 'Helvetica-Bold'),  # Header bold
+                    ('FONTSIZE', (0,0), (0,0), 12),  # Header larger
+                    ('TEXTCOLOR', (0,0), (0,0), primary_color),  # Header color
+                    # Add subtle borders for better structure
+                    ('LINEBELOW', (0,0), (-1,0), 1, colors.HexColor('#e5e7eb')),
+                    ('LINEBELOW', (0,-1), (-1,-1), 1, colors.HexColor('#e5e7eb')),
         ]))
         elems.append(payment_tbl)
-        elems.append(Spacer(1, 6))  # Reduced from 8
+        elems.append(Spacer(1, 8))
         
-        # Terms and Conditions from Business Profile
+        # ENHANCED: Professional Terms and Conditions Section
         terms_data = []
         
-        # Always show default terms (even if empty, show a placeholder)
-        terms_data.append([Paragraph('<b>Default Terms:</b>', ParagraphStyle('section_title', parent=normal, fontSize=12, textColor=primary_color)), 
-                        Paragraph(business_profile.default_terms or 'Standard payment terms apply. Please pay within the due date.', ParagraphStyle('terms_text', parent=small, fontSize=9))])
+        # Always show default terms with better styling
+        default_terms = business_profile.default_terms or 'Standard payment terms apply. Please pay within the due date.'
+        terms_data.append([
+            Paragraph('<b>Terms & Conditions</b>', ParagraphStyle('section_title', parent=normal, fontSize=12, textColor=primary_color)),
+            Paragraph('', normal)  # Empty cell for alignment
+        ])
+        terms_data.append([
+            Paragraph('Default Terms:', ParagraphStyle('label', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280'))),
+            Paragraph(default_terms, ParagraphStyle('terms_text', parent=small, fontSize=9, textColor=colors.HexColor('#374151')))
+        ])
         
         # Show invoice-specific terms if available
         if invoice.terms_and_conditions:
-            terms_data.append([Paragraph('<b>Invoice Terms:</b>', ParagraphStyle('section_title', parent=normal, fontSize=12, textColor=primary_color)), 
-                            Paragraph(invoice.terms_and_conditions, ParagraphStyle('terms_text', parent=small, fontSize=9))])
+            terms_data.append([
+                Paragraph('Invoice Terms:', ParagraphStyle('label', parent=small, fontSize=9, textColor=colors.HexColor('#6b7280'))),
+                Paragraph(invoice.terms_and_conditions, ParagraphStyle('terms_text', parent=small, fontSize=9, textColor=colors.HexColor('#374151')))
+            ])
         
-        # Always show terms section
+        # Always show terms section with professional styling
         if terms_data:
-            terms_tbl = Table(terms_data, colWidths=[doc.width*0.65, doc.width*0.35])  # Same width as other tables
+            terms_tbl = Table(terms_data, colWidths=[doc.width*0.3, doc.width*0.7])
             terms_tbl.setStyle(TableStyle([
-                ('BACKGROUND', (0,0), (0,-1), colors.HexColor('#f1f5f9')),
-                ('LEFTPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-                ('RIGHTPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-                ('TOPPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
-                ('BOTTOMPADDING', (0,0), (-1,-1), 4),  # Minimal padding for alignment
+                ('BACKGROUND', (0,0), (0,0), colors.HexColor('#f1f5f9')),  # Header background
+                ('BACKGROUND', (0,1), (-1,-1), colors.HexColor('#ffffff')),  # Data background
+                ('LEFTPADDING', (0,0), (-1,-1), 12),  # More padding for better spacing
+                ('RIGHTPADDING', (0,0), (-1,-1), 12),
+                ('TOPPADDING', (0,0), (-1,-1), 6),
+                ('BOTTOMPADDING', (0,0), (-1,-1), 6),
+                ('VALIGN', (0,0), (-1,-1), 'TOP'),
+                ('ALIGN', (0,0), (0,-1), 'LEFT'),  # Labels left-aligned
+                ('ALIGN', (1,0), (1,-1), 'LEFT'),  # Values left-aligned
+                ('FONTNAME', (0,0), (0,0), 'Helvetica-Bold'),  # Header bold
+                ('FONTSIZE', (0,0), (0,0), 12),  # Header larger
+                ('TEXTCOLOR', (0,0), (0,0), primary_color),  # Header color
+                # Add subtle borders for better structure
+                ('LINEBELOW', (0,0), (-1,0), 1, colors.HexColor('#e5e7eb')),
+                ('LINEBELOW', (0,-1), (-1,-1), 1, colors.HexColor('#e5e7eb')),
             ]))
             elems.append(terms_tbl)
-            elems.append(Spacer(1, 6))  # Reduced from 8
+            elems.append(Spacer(1, 6))
     
     # Add signature if available
     if business_profile and business_profile.signature_path and os.path.exists(business_profile.signature_path):
         try:
-            from reportlab.platypus import Image
             signature = Image(business_profile.signature_path, width=80, height=40)
             signature_tbl = Table([[Paragraph('<b>Authorized Signatory</b>', small), signature]], colWidths=[doc.width*0.7, doc.width*0.3])
             signature_tbl.setStyle(TableStyle([
@@ -421,6 +460,3 @@ def render_default_pdf(invoice, business_profile=None) -> bytes:
     doc.build(elems)
     buffer.seek(0)
     return buffer.getvalue()
-
-
-

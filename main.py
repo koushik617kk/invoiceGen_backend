@@ -144,11 +144,31 @@ def next_invoice_number(db: Session, user_id: int) -> str:
         db.add(bp)
         db.commit()
         db.refresh(bp)
+    
+    # Start with the stored sequence number
     seq = bp.next_invoice_seq or 1
-    inv_no = f"INV-{date.today().year}-{seq:06d}"
-    bp.next_invoice_seq = seq + 1
-    db.commit()
-    return inv_no
+    
+    # Keep generating invoice numbers until we find one that doesn't exist
+    while True:
+        inv_no = f"INV-{date.today().year}-{seq:06d}"
+        
+        # Check if this invoice number already exists for this user
+        existing = db.query(Invoice).filter(
+            Invoice.invoice_number == inv_no,
+            Invoice.user_id == user_id
+        ).first()
+        if not existing:
+            # Found a unique invoice number, update the sequence and return
+            bp.next_invoice_seq = seq + 1
+            db.commit()
+            return inv_no
+        
+        # Invoice number exists, try the next one
+        seq += 1
+        
+        # Safety check to prevent infinite loop
+        if seq > 999999:
+            raise HTTPException(status_code=500, detail="Unable to generate unique invoice number")
 
 
 @app.post("/invoices", response_model=InvoiceOut)
@@ -1539,7 +1559,7 @@ async def create_service_template(
         
         print(f"DEBUG: Found business profile {bp.id}")
         
-        # Create service template
+        # Create service template with template_type field
         template_data = body.model_dump()
         template = ServiceTemplate(
             user_id=current_user.id,
@@ -1548,6 +1568,7 @@ async def create_service_template(
         )
         
         print(f"DEBUG: Created template object: {template}")
+        print(f"DEBUG: Template type: {template.template_type}")
         
         db.add(template)
         db.commit()
@@ -1730,11 +1751,13 @@ async def generate_service_templates(
                 template = ServiceTemplate(
                     user_id=current_user.id,
                     business_profile_id=bp.id,
-                    description=service_data['name'],  # Changed from service_name to description
+                    template_name=service_data['name'],  # NEW: Generic name for template selection
+                    description=service_data['description'],  # Specific description for invoice
                     sac_code=service_data['sac_code'],
                     gst_rate=service_data['gst_rate'],
                     unit='Nos',  # Default unit for services
-                    base_rate=service_data['base_rate']
+                    base_rate=service_data['base_rate'],
+                    template_type='service'  # Set template type for services
                 )
                 
                 db.add(template)
@@ -1783,12 +1806,14 @@ async def generate_product_templates(
                 template = ServiceTemplate(
                     user_id=current_user.id,
                     business_profile_id=bp.id,
-                    description=product.description,
+                    template_name=product.description,  # NEW: Generic name for template selection
+                    description=product.description,  # Specific description for invoice (same for products)
                     sac_code=product.code,  # Use HSN code as SAC code for products
                     gst_rate=product.gst_rate,
                     hsn_code=product.code,  # Store the actual HSN code
                     unit='Nos',  # Default unit for products
-                    base_rate=1000.0  # Default base rate for products
+                    base_rate=1000.0,  # Default base rate for products
+                    template_type='product'  # Set template type for products
                 )
                 
                 db.add(template)

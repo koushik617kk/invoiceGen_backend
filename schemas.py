@@ -263,7 +263,8 @@ class LibraryItemOut(BaseModel):
 
 
 class ServiceTemplateIn(BaseModel):
-    description: str
+    template_name: str  # NEW: Generic name for template selection
+    description: str  # Specific description for invoice
     sac_code: str
     gst_rate: float
     hsn_code: Optional[str] = None
@@ -275,13 +276,15 @@ class ServiceTemplateIn(BaseModel):
     max_quantity: Optional[float] = None
     is_active: bool = True
     is_default: bool = False
+    template_type: str = "service"  # "service" or "product"
 
 
 class ServiceTemplateOut(BaseModel):
     id: int
     user_id: int
     business_profile_id: int
-    description: str
+    template_name: str  # NEW: Generic name for template selection
+    description: str  # Specific description for invoice
     sac_code: str
     gst_rate: float
     hsn_code: Optional[str] = None
@@ -293,6 +296,7 @@ class ServiceTemplateOut(BaseModel):
     max_quantity: Optional[float] = None
     is_active: bool
     is_default: bool
+    template_type: str  # "service" or "product"
     created_at: datetime
     updated_at: datetime
 
@@ -301,7 +305,8 @@ class ServiceTemplateOut(BaseModel):
 
 
 class ServiceTemplateUpdate(BaseModel):
-    description: Optional[str] = None
+    template_name: Optional[str] = None  # NEW: Generic name for template selection
+    description: Optional[str] = None  # Specific description for invoice
     sac_code: Optional[str] = None
     gst_rate: Optional[float] = None
     hsn_code: Optional[str] = None
@@ -313,6 +318,7 @@ class ServiceTemplateUpdate(BaseModel):
     max_quantity: Optional[float] = None
     is_active: Optional[bool] = None
     is_default: Optional[bool] = None
+    template_type: Optional[str] = None  # "service" or "product"
 
 
 # Master Services Schemas

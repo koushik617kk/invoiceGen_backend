@@ -5,9 +5,31 @@ from datetime import datetime
 import os
 from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()  # Load from project root
-load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))  # Load from backend directory
+# Smart environment detection
+def get_environment():
+    """Detect current environment and load appropriate config"""
+    # Check if we're in production based on common indicators
+    if os.getenv("ENVIRONMENT") == "production":
+        return "production"
+    elif "postgresql" in os.getenv("DATABASE_URL", ""):
+        return "production"
+    elif os.getenv("ENVIRONMENT") == "development":
+        return "development"
+    else:
+        return "development"
+
+# Load environment variables based on detected environment
+ENVIRONMENT = get_environment()
+
+if ENVIRONMENT == "production":
+    # Load production config
+    load_dotenv(os.path.join(os.path.dirname(__file__), '.env.production'))
+else:
+    # Load development config
+    load_dotenv(os.path.join(os.path.dirname(__file__), '.env.development'))
+
+# Fallback to .env if specific environment file doesn't exist
+load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./invoicegen.db")
 
@@ -37,7 +59,7 @@ def _sqlite_table_exists(conn, table_name: str) -> bool:
 
 def run_startup_migrations():
     """Minimal, safe, in-place migrations for SQLite during development."""
-    if not DATABASE_URL.startswith("sqlite"):
+    if ENVIRONMENT != "development" or not DATABASE_URL.startswith("sqlite"):
         return
     with engine.connect() as conn:
         # invoices.paid_on
