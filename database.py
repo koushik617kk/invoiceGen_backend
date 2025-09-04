@@ -5,6 +5,9 @@ from datetime import datetime
 import os
 from dotenv import load_dotenv
 
+# Load .env file first
+load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
+
 # Smart environment detection
 def get_environment():
     """Detect current environment and load appropriate config"""
@@ -18,18 +21,8 @@ def get_environment():
     else:
         return "development"
 
-# Load environment variables based on detected environment
+# Get environment after loading .env
 ENVIRONMENT = get_environment()
-
-if ENVIRONMENT == "production":
-    # Load production config
-    load_dotenv(os.path.join(os.path.dirname(__file__), '.env.production'))
-else:
-    # Load development config
-    load_dotenv(os.path.join(os.path.dirname(__file__), '.env.development'))
-
-# Fallback to .env if specific environment file doesn't exist
-load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./invoicegen.db")
 
