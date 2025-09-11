@@ -1,0 +1,2148 @@
+{
+  "categories": {
+    "Agriculture": {
+      "count": 3,
+      "services": [
+        {
+          "name": "Farming Consultation",
+          "description": "Agricultural consulting and farm management",
+          "sac_code": "998211",
+          "subcategory": "Consulting",
+          "keywords": "farming,agriculture,crop,consultation,farm management",
+          "gst_rate": 12.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Landscaping",
+          "description": "Garden and landscape design services",
+          "sac_code": "998211",
+          "subcategory": "Landscaping",
+          "keywords": "landscaping,garden,lawn,plants,landscape design",
+          "gst_rate": 12.0,
+          "unit": "Sq Ft",
+          "usage_count": 0
+        },
+        {
+          "name": "Pest Control",
+          "description": "Agricultural and residential pest control",
+          "sac_code": "998211",
+          "subcategory": "Pest Control",
+          "keywords": "pest control,insects,termite,fumigation,extermination",
+          "gst_rate": 12.0,
+          "unit": "Sq Ft",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Automotive": {
+      "count": 3,
+      "services": [
+        {
+          "name": "Car Repair",
+          "description": "Automobile repair and maintenance",
+          "sac_code": "997212",
+          "subcategory": "Repair",
+          "keywords": "car repair,automobile,vehicle,maintenance,mechanic",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Car Wash",
+          "description": "Vehicle cleaning and detailing services",
+          "sac_code": "997212",
+          "subcategory": "Cleaning",
+          "keywords": "car wash,vehicle cleaning,detailing,auto care",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 3
+        },
+        {
+          "name": "Tire Service",
+          "description": "Tire installation and repair services",
+          "sac_code": "997212",
+          "subcategory": "Tire",
+          "keywords": "tire,wheel,puncture,tire repair,installation",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Beauty_Services": {
+      "count": 8,
+      "services": [
+        {
+          "name": "Hair Cutting",
+          "description": "Hair cutting and styling services",
+          "sac_code": "997331",
+          "subcategory": "Hair",
+          "keywords": "hair cut,styling,salon,barber,grooming",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Makeup Service",
+          "description": "Professional makeup and beauty services",
+          "sac_code": "997331",
+          "subcategory": "Makeup",
+          "keywords": "makeup,beauty,cosmetics,bridal makeup,party makeup",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Spa Service",
+          "description": "Spa and wellness treatment services",
+          "sac_code": "997331",
+          "subcategory": "Spa",
+          "keywords": "spa,wellness,massage,relaxation,therapy",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Manicure Pedicure",
+          "description": "Nail care and beauty services",
+          "sac_code": "997331",
+          "subcategory": "Nails",
+          "keywords": "manicure,pedicure,nail care,nail art,beauty",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Hair Salon Services",
+          "description": "Hair cutting, styling and treatments",
+          "sac_code": "997331",
+          "subcategory": "Hair",
+          "keywords": "hair salon,hair cut,styling,hair treatment,salon",
+          "gst_rate": 18.0,
+          "unit": "Service",
+          "usage_count": 0
+        },
+        {
+          "name": "Beauty Parlour Services",
+          "description": "Facial, beauty treatments and makeup",
+          "sac_code": "997331",
+          "subcategory": "Beauty",
+          "keywords": "beauty parlour,facial,makeup,beauty treatment",
+          "gst_rate": 18.0,
+          "unit": "Service",
+          "usage_count": 0
+        },
+        {
+          "name": "Spa Services",
+          "description": "Wellness spa and relaxation treatments",
+          "sac_code": "997331",
+          "subcategory": "Spa",
+          "keywords": "spa,wellness,relaxation,body treatment,therapy",
+          "gst_rate": 18.0,
+          "unit": "Service",
+          "usage_count": 0
+        },
+        {
+          "name": "Nail Services",
+          "description": "Manicure, pedicure and nail art",
+          "sac_code": "997331",
+          "subcategory": "Nails",
+          "keywords": "manicure,pedicure,nail art,nail care",
+          "gst_rate": 18.0,
+          "unit": "Service",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Construction": {
+      "count": 5,
+      "services": [
+        {
+          "name": "Building Construction",
+          "description": "Residential and commercial construction",
+          "sac_code": "995411",
+          "subcategory": "Building",
+          "keywords": "construction,building,residential,commercial,contractor",
+          "gst_rate": 12.0,
+          "unit": "Sq Ft",
+          "usage_count": 0
+        },
+        {
+          "name": "Interior Design",
+          "description": "Interior design and decoration services",
+          "sac_code": "995411",
+          "subcategory": "Interior",
+          "keywords": "interior design,decoration,home design,office design,furnishing",
+          "gst_rate": 12.0,
+          "unit": "Sq Ft",
+          "usage_count": 0
+        },
+        {
+          "name": "Renovation",
+          "description": "Building renovation and remodeling",
+          "sac_code": "995411",
+          "subcategory": "Renovation",
+          "keywords": "renovation,remodeling,refurbishment,home improvement",
+          "gst_rate": 12.0,
+          "unit": "Sq Ft",
+          "usage_count": 0
+        },
+        {
+          "name": "Plumbing",
+          "description": "Plumbing installation and repair",
+          "sac_code": "995411",
+          "subcategory": "Plumbing",
+          "keywords": "plumbing,pipe,water,drainage,installation,repair",
+          "gst_rate": 12.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Electrical Work",
+          "description": "Electrical installation and maintenance",
+          "sac_code": "995411",
+          "subcategory": "Electrical",
+          "keywords": "electrical,wiring,installation,electrician,power",
+          "gst_rate": 12.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Consulting_Services": {
+      "count": 2,
+      "services": [
+        {
+          "name": "Business Strategy Consulting",
+          "description": "Strategic business planning, market analysis, and growth strategies",
+          "sac_code": "998314",
+          "subcategory": "Business_Consulting",
+          "keywords": "business strategy,consulting,planning,market analysis,growth strategy",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Digital Transformation Consulting",
+          "description": "Technology adoption strategy and digital process improvement",
+          "sac_code": "998314",
+          "subcategory": "Technology_Consulting",
+          "keywords": "digital transformation,technology consulting,process improvement,automation",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Creative_Services": {
+      "count": 17,
+      "services": [
+        {
+          "name": "Graphic Design",
+          "description": "Visual design and graphic creation services",
+          "sac_code": "998399",
+          "subcategory": "Design",
+          "keywords": "graphic design,logo,branding,visual design,creative,artwork",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Logo Design",
+          "description": "Professional logo and brand identity design",
+          "sac_code": "998399",
+          "subcategory": "Design",
+          "keywords": "logo,brand identity,corporate identity,design,visual branding",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Web Design",
+          "description": "Website design and user interface creation",
+          "sac_code": "998399",
+          "subcategory": "Design",
+          "keywords": "web design,website design,ui design,responsive design,layout",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 1
+        },
+        {
+          "name": "Print Design",
+          "description": "Print materials and publication design",
+          "sac_code": "998399",
+          "subcategory": "Design",
+          "keywords": "print design,brochure,flyer,poster,business card,catalog",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Video Production",
+          "description": "Video creation and post-production services",
+          "sac_code": "998399",
+          "subcategory": "Video",
+          "keywords": "video production,filming,editing,post production,commercial",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Photography",
+          "description": "Professional photography services",
+          "sac_code": "998399",
+          "subcategory": "Photography",
+          "keywords": "photography,photo shoot,product photography,portrait,commercial photography",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Animation",
+          "description": "2D and 3D animation services",
+          "sac_code": "998399",
+          "subcategory": "Animation",
+          "keywords": "animation,2d animation,3d animation,motion graphics,explainer video",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Illustration",
+          "description": "Custom illustration and artwork creation",
+          "sac_code": "998399",
+          "subcategory": "Illustration",
+          "keywords": "illustration,artwork,custom art,digital illustration,vector art",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Content Writing",
+          "description": "Professional content and copywriting services",
+          "sac_code": "998399",
+          "subcategory": "Writing",
+          "keywords": "content writing,copywriting,blog writing,website content,articles",
+          "gst_rate": 18.0,
+          "unit": "Words",
+          "usage_count": 0
+        },
+        {
+          "name": "Voice Over",
+          "description": "Professional voice over and narration services",
+          "sac_code": "998399",
+          "subcategory": "Audio",
+          "keywords": "voice over,narration,audio,voice recording,commercial voice",
+          "gst_rate": 18.0,
+          "unit": "Minutes",
+          "usage_count": 0
+        },
+        {
+          "name": "3D Design & Modeling",
+          "description": "3D graphics, modeling and animation services",
+          "sac_code": "998399",
+          "subcategory": "3D",
+          "keywords": "3d design,3d modeling,animation,3d graphics,rendering",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Photography Services",
+          "description": "Professional photography for events and products",
+          "sac_code": "998399",
+          "subcategory": "Photography",
+          "keywords": "photography,photo shoot,event photography,product photography",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Audio Production",
+          "description": "Music production and audio editing services",
+          "sac_code": "998399",
+          "subcategory": "Audio",
+          "keywords": "audio production,music production,sound editing,recording",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Logo & Branding Design",
+          "description": "Logo design and complete brand identity",
+          "sac_code": "998399",
+          "subcategory": "Branding",
+          "keywords": "logo design,brand identity,corporate identity,branding",
+          "gst_rate": 18.0,
+          "unit": "Project",
+          "usage_count": 0
+        },
+        {
+          "name": "Packaging Design",
+          "description": "Product packaging and label design",
+          "sac_code": "998399",
+          "subcategory": "Packaging",
+          "keywords": "packaging design,label design,product packaging",
+          "gst_rate": 18.0,
+          "unit": "Project",
+          "usage_count": 0
+        },
+        {
+          "name": "Fashion Design",
+          "description": "Clothing and accessory design services",
+          "sac_code": "998399",
+          "subcategory": "Fashion",
+          "keywords": "fashion design,clothing design,textile design,pattern making",
+          "gst_rate": 18.0,
+          "unit": "Design",
+          "usage_count": 0
+        },
+        {
+          "name": "Illustration Services",
+          "description": "Custom illustrations and artwork creation",
+          "sac_code": "998399",
+          "subcategory": "Illustration",
+          "keywords": "illustration,artwork,custom art,digital illustration",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Design_Services": {
+      "count": 3,
+      "services": [
+        {
+          "name": "Logo Design & Branding",
+          "description": "Custom logo design with complete brand identity package",
+          "sac_code": "998314",
+          "subcategory": "Graphic_Design",
+          "keywords": "logo design,branding,brand identity,graphic design,visual identity",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "UI/UX Design for Web Applications",
+          "description": "User interface and experience design for web platforms",
+          "sac_code": "998314",
+          "subcategory": "UI_UX_Design",
+          "keywords": "ui design,ux design,user interface,user experience,web design",
+          "gst_rate": 18.0,
+          "unit": "Screens",
+          "usage_count": 0
+        },
+        {
+          "name": "Mobile App UI/UX Design",
+          "description": "User interface and experience design for mobile applications",
+          "sac_code": "998314",
+          "subcategory": "UI_UX_Design",
+          "keywords": "mobile ui,mobile ux,app design,mobile interface,app experience",
+          "gst_rate": 18.0,
+          "unit": "Screens",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Digital_Marketing": {
+      "count": 4,
+      "services": [
+        {
+          "name": "Social Media Marketing",
+          "description": "Complete social media strategy, content creation, and community management",
+          "sac_code": "998315",
+          "subcategory": "Social_Media",
+          "keywords": "social media,facebook,instagram,linkedin,content marketing,smm",
+          "gst_rate": 18.0,
+          "unit": "Months",
+          "usage_count": 0
+        },
+        {
+          "name": "Search Engine Optimization (SEO)",
+          "description": "Complete SEO audit, keyword research, and organic ranking improvement",
+          "sac_code": "998315",
+          "subcategory": "SEO_Services",
+          "keywords": "seo,search engine optimization,google ranking,keywords,organic traffic",
+          "gst_rate": 18.0,
+          "unit": "Months",
+          "usage_count": 0
+        },
+        {
+          "name": "Google Ads Campaign Management",
+          "description": "Complete Google Ads setup, optimization, and performance management",
+          "sac_code": "998315",
+          "subcategory": "PPC_Services",
+          "keywords": "google ads,ppc,paid advertising,adwords,campaign management",
+          "gst_rate": 18.0,
+          "unit": "Months",
+          "usage_count": 0
+        },
+        {
+          "name": "Content Writing Services",
+          "description": "Professional blog posts, website content, and marketing copy writing",
+          "sac_code": "998315",
+          "subcategory": "Content_Services",
+          "keywords": "content writing,blog posts,copywriting,articles,web content",
+          "gst_rate": 18.0,
+          "unit": "Articles",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Education": {
+      "count": 7,
+      "services": [
+        {
+          "name": "Online Tutoring",
+          "description": "Online educational tutoring services",
+          "sac_code": "998321",
+          "subcategory": "Tutoring",
+          "keywords": "tutoring,education,online learning,teaching,academic",
+          "gst_rate": 0.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Skill Training",
+          "description": "Professional skill development training",
+          "sac_code": "998321",
+          "subcategory": "Training",
+          "keywords": "skill training,professional development,certification,course",
+          "gst_rate": 0.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Language Classes",
+          "description": "Foreign language learning classes",
+          "sac_code": "998321",
+          "subcategory": "Language",
+          "keywords": "language,english,hindi,foreign language,classes",
+          "gst_rate": 0.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Music Lessons",
+          "description": "Music instrument and vocal lessons",
+          "sac_code": "998321",
+          "subcategory": "Music",
+          "keywords": "music,lessons,instrument,vocal,guitar,piano",
+          "gst_rate": 0.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Skill Development Training",
+          "description": "Professional skill and certification training",
+          "sac_code": "998321",
+          "subcategory": "Skills",
+          "keywords": "skill development,certification,professional training,courses",
+          "gst_rate": 0.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Dance Classes",
+          "description": "Dance instruction and choreography",
+          "sac_code": "998321",
+          "subcategory": "Dance",
+          "keywords": "dance classes,choreography,classical,modern,dance",
+          "gst_rate": 0.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Art Classes",
+          "description": "Drawing, painting and art instruction",
+          "sac_code": "998321",
+          "subcategory": "Art",
+          "keywords": "art classes,painting,drawing,sketching,art",
+          "gst_rate": 0.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Entertainment": {
+      "count": 3,
+      "services": [
+        {
+          "name": "DJ Service",
+          "description": "Music and DJ services for events",
+          "sac_code": "998399",
+          "subcategory": "Music",
+          "keywords": "dj,music,party,event,entertainment",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Live Music",
+          "description": "Live musical performance services",
+          "sac_code": "998399",
+          "subcategory": "Music",
+          "keywords": "live music,band,performance,concert,musician",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Dance Performance",
+          "description": "Dance and choreography services",
+          "sac_code": "998399",
+          "subcategory": "Dance",
+          "keywords": "dance,choreography,performance,cultural,traditional",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Event_Services": {
+      "count": 8,
+      "services": [
+        {
+          "name": "Event Planning",
+          "description": "Event planning and management services",
+          "sac_code": "998399",
+          "subcategory": "Planning",
+          "keywords": "event planning,wedding,party,conference,event management",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Wedding Planning",
+          "description": "Wedding ceremony planning and coordination",
+          "sac_code": "998399",
+          "subcategory": "Wedding",
+          "keywords": "wedding planning,marriage,ceremony,reception,bridal",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Conference Management",
+          "description": "Corporate conference and meeting management",
+          "sac_code": "998399",
+          "subcategory": "Corporate",
+          "keywords": "conference,meeting,corporate event,seminar,workshop",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Birthday Party Planning",
+          "description": "Birthday and celebration event planning",
+          "sac_code": "998399",
+          "subcategory": "Birthday",
+          "keywords": "birthday party,celebration,party planning,event",
+          "gst_rate": 18.0,
+          "unit": "Event",
+          "usage_count": 0
+        },
+        {
+          "name": "Corporate Event Management",
+          "description": "Business conferences and corporate events",
+          "sac_code": "998399",
+          "subcategory": "Corporate",
+          "keywords": "corporate event,conference,seminar,business event",
+          "gst_rate": 18.0,
+          "unit": "Event",
+          "usage_count": 0
+        },
+        {
+          "name": "Live Entertainment",
+          "description": "Live music and entertainment performances",
+          "sac_code": "998399",
+          "subcategory": "Entertainment",
+          "keywords": "live entertainment,music,performance,band,artist",
+          "gst_rate": 18.0,
+          "unit": "Event",
+          "usage_count": 0
+        },
+        {
+          "name": "DJ Services",
+          "description": "Music and DJ services for events",
+          "sac_code": "998399",
+          "subcategory": "Music",
+          "keywords": "dj,music,party,event entertainment,sound",
+          "gst_rate": 18.0,
+          "unit": "Event",
+          "usage_count": 0
+        },
+        {
+          "name": "Catering Services",
+          "description": "Food catering for events and parties",
+          "sac_code": "996331",
+          "subcategory": "Catering",
+          "keywords": "catering,food,event catering,party food,wedding catering",
+          "gst_rate": 5.0,
+          "unit": "Event",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Financial_Services": {
+      "count": 4,
+      "services": [
+        {
+          "name": "Accounting Service",
+          "description": "Bookkeeping and accounting services",
+          "sac_code": "998313",
+          "subcategory": "Accounting",
+          "keywords": "accounting,bookkeeping,finance,tax,audit",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Tax Preparation",
+          "description": "Income tax return preparation",
+          "sac_code": "998313",
+          "subcategory": "Tax",
+          "keywords": "tax,income tax,return,preparation,filing",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Financial Planning",
+          "description": "Personal financial planning and investment",
+          "sac_code": "998313",
+          "subcategory": "Planning",
+          "keywords": "financial planning,investment,portfolio,wealth management",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Insurance Service",
+          "description": "Insurance consultation and policy services",
+          "sac_code": "998313",
+          "subcategory": "Insurance",
+          "keywords": "insurance,policy,life insurance,health insurance",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Fitness": {
+      "count": 3,
+      "services": [
+        {
+          "name": "Personal Training",
+          "description": "Personal fitness training services",
+          "sac_code": "998399",
+          "subcategory": "Training",
+          "keywords": "personal training,fitness,gym,workout,exercise",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Yoga Classes",
+          "description": "Yoga instruction and wellness classes",
+          "sac_code": "998399",
+          "subcategory": "Yoga",
+          "keywords": "yoga,meditation,wellness,fitness,health",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Gym Membership",
+          "description": "Fitness center and gym services",
+          "sac_code": "998399",
+          "subcategory": "Gym",
+          "keywords": "gym,fitness center,workout,equipment,membership",
+          "gst_rate": 18.0,
+          "unit": "Months",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Food_Services": {
+      "count": 3,
+      "services": [
+        {
+          "name": "Catering Service",
+          "description": "Event catering and food services",
+          "sac_code": "996331",
+          "subcategory": "Catering",
+          "keywords": "catering,food,event,party,wedding,buffet",
+          "gst_rate": 5.0,
+          "unit": "Nos",
+          "usage_count": 1
+        },
+        {
+          "name": "Restaurant Service",
+          "description": "Restaurant dining and food services",
+          "sac_code": "996331",
+          "subcategory": "Restaurant",
+          "keywords": "restaurant,dining,food,meal,cuisine",
+          "gst_rate": 5.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Food Delivery",
+          "description": "Food delivery and takeaway services",
+          "sac_code": "996331",
+          "subcategory": "Delivery",
+          "keywords": "food delivery,takeaway,home delivery,online food",
+          "gst_rate": 5.0,
+          "unit": "Nos",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Healthcare": {
+      "count": 9,
+      "services": [
+        {
+          "name": "Medical Consultation",
+          "description": "Doctor consultation and medical advice",
+          "sac_code": "998311",
+          "subcategory": "Consultation",
+          "keywords": "medical,doctor,consultation,healthcare,medical advice",
+          "gst_rate": 5.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Physiotherapy",
+          "description": "Physical therapy and rehabilitation",
+          "sac_code": "998311",
+          "subcategory": "Therapy",
+          "keywords": "physiotherapy,physical therapy,rehabilitation,exercise therapy",
+          "gst_rate": 5.0,
+          "unit": "Sessions",
+          "usage_count": 0
+        },
+        {
+          "name": "Nursing Care",
+          "description": "Professional nursing and care services",
+          "sac_code": "998311",
+          "subcategory": "Nursing",
+          "keywords": "nursing,care,patient care,home nursing,medical care",
+          "gst_rate": 5.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Dental Services",
+          "description": "Dental examination and treatment",
+          "sac_code": "998311",
+          "subcategory": "Dental",
+          "keywords": "dental,dentist,teeth,oral health,dental care",
+          "gst_rate": 5.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Nutrition Counseling",
+          "description": "Diet planning and nutrition consultation",
+          "sac_code": "998311",
+          "subcategory": "Nutrition",
+          "keywords": "nutrition,diet plan,nutritionist,health consultation",
+          "gst_rate": 5.0,
+          "unit": "Session",
+          "usage_count": 0
+        },
+        {
+          "name": "Mental Health Counseling",
+          "description": "Psychology and mental health services",
+          "sac_code": "998311",
+          "subcategory": "Mental Health",
+          "keywords": "mental health,psychology,counseling,therapy,psychiatry",
+          "gst_rate": 5.0,
+          "unit": "Session",
+          "usage_count": 0
+        },
+        {
+          "name": "Yoga Instruction",
+          "description": "Yoga classes and wellness instruction",
+          "sac_code": "998399",
+          "subcategory": "Wellness",
+          "keywords": "yoga,meditation,wellness,fitness,health",
+          "gst_rate": 18.0,
+          "unit": "Class",
+          "usage_count": 0
+        },
+        {
+          "name": "Massage Therapy",
+          "description": "Therapeutic massage and spa services",
+          "sac_code": "997331",
+          "subcategory": "Therapy",
+          "keywords": "massage,spa,therapy,relaxation,wellness",
+          "gst_rate": 18.0,
+          "unit": "Session",
+          "usage_count": 0
+        },
+        {
+          "name": "Home Healthcare",
+          "description": "Medical care services at home",
+          "sac_code": "998311",
+          "subcategory": "Home Care",
+          "keywords": "home healthcare,nursing,medical care,elder care",
+          "gst_rate": 5.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "IT_Services": {
+      "count": 43,
+      "services": [
+        {
+          "name": "Web Development",
+          "description": "Custom website development and programming services",
+          "sac_code": "998314",
+          "subcategory": "Development",
+          "keywords": "website,web,development,programming,coding,html,css,javascript,react,angular,php,python,nodejs,frontend,backend",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 5
+        },
+        {
+          "name": "Mobile App Development",
+          "description": "iOS and Android mobile application development",
+          "sac_code": "998314",
+          "subcategory": "Development",
+          "keywords": "mobile,app,ios,android,react native,flutter,xamarin,mobile development",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Software Development",
+          "description": "Custom software solutions and applications",
+          "sac_code": "998314",
+          "subcategory": "Development",
+          "keywords": "software,application,custom,development,programming,solution,system",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Database Development",
+          "description": "Database design, development and optimization",
+          "sac_code": "998314",
+          "subcategory": "Development",
+          "keywords": "database,mysql,postgresql,mongodb,sql,data,design,optimization",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "API Development",
+          "description": "REST API and web services development",
+          "sac_code": "998314",
+          "subcategory": "Development",
+          "keywords": "api,rest,web services,integration,microservices,graphql",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "E-commerce Development",
+          "description": "Online store and e-commerce platform development",
+          "sac_code": "998314",
+          "subcategory": "Development",
+          "keywords": "ecommerce,online store,shopping cart,payment gateway,shopify,woocommerce",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "CRM Development",
+          "description": "Customer Relationship Management system development",
+          "sac_code": "998314",
+          "subcategory": "Development",
+          "keywords": "crm,customer management,sales,lead tracking,customer service",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "ERP Development",
+          "description": "Enterprise Resource Planning system development",
+          "sac_code": "998314",
+          "subcategory": "Development",
+          "keywords": "erp,enterprise,resource planning,business management,inventory",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Cloud Migration",
+          "description": "Cloud infrastructure migration services",
+          "sac_code": "998314",
+          "subcategory": "Cloud",
+          "keywords": "cloud,migration,aws,azure,google cloud,infrastructure,deployment",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "DevOps Services",
+          "description": "DevOps implementation and automation",
+          "sac_code": "998314",
+          "subcategory": "Operations",
+          "keywords": "devops,automation,ci cd,deployment,docker,kubernetes,jenkins",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "IT Security Consulting",
+          "description": "Cybersecurity consulting and implementation",
+          "sac_code": "998314",
+          "subcategory": "Security",
+          "keywords": "security,cybersecurity,penetration testing,vulnerability,firewall,encryption",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Network Setup",
+          "description": "Computer network installation and configuration",
+          "sac_code": "998314",
+          "subcategory": "Infrastructure",
+          "keywords": "network,lan,wan,wifi,router,switch,configuration",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "IT Support",
+          "description": "Technical support and maintenance services",
+          "sac_code": "998314",
+          "subcategory": "Support",
+          "keywords": "support,technical,maintenance,troubleshooting,help desk,remote support",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Data Analytics",
+          "description": "Business intelligence and data analysis services",
+          "sac_code": "998314",
+          "subcategory": "Analytics",
+          "keywords": "data,analytics,business intelligence,reporting,dashboard,visualization",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Machine Learning",
+          "description": "AI and machine learning solution development",
+          "sac_code": "998314",
+          "subcategory": "AI",
+          "keywords": "machine learning,ai,artificial intelligence,deep learning,neural networks,python",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Blockchain Development",
+          "description": "Blockchain and cryptocurrency solutions",
+          "sac_code": "998314",
+          "subcategory": "Blockchain",
+          "keywords": "blockchain,cryptocurrency,smart contracts,ethereum,bitcoin,defi",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "UI/UX Design",
+          "description": "User interface and user experience design",
+          "sac_code": "998314",
+          "subcategory": "Design",
+          "keywords": "ui,ux,user interface,user experience,design,wireframe,prototype",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Quality Assurance",
+          "description": "Software testing and quality assurance services",
+          "sac_code": "998314",
+          "subcategory": "Testing",
+          "keywords": "qa,testing,quality assurance,automation testing,manual testing,bug testing",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "System Integration",
+          "description": "Enterprise system integration services",
+          "sac_code": "998314",
+          "subcategory": "Integration",
+          "keywords": "integration,system,enterprise,middleware,api integration,data sync",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "IT Training",
+          "description": "Technology training and skill development",
+          "sac_code": "998314",
+          "subcategory": "Training",
+          "keywords": "training,education,skill development,workshop,certification,technical training",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Cloud Computing Services",
+          "description": "Cloud infrastructure setup and management",
+          "sac_code": "998314",
+          "subcategory": "Cloud",
+          "keywords": "cloud,aws,azure,google cloud,infrastructure,saas,paas",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Cybersecurity Services",
+          "description": "Information security and cyber threat protection",
+          "sac_code": "998314",
+          "subcategory": "Security",
+          "keywords": "cybersecurity,security,firewall,antivirus,protection,hacking",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Data Analytics Services",
+          "description": "Big data analysis and business intelligence",
+          "sac_code": "998314",
+          "subcategory": "Analytics",
+          "keywords": "data analytics,business intelligence,big data,reporting,dashboard",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "AI/ML Development",
+          "description": "Artificial Intelligence and Machine Learning solutions",
+          "sac_code": "998314",
+          "subcategory": "AI",
+          "keywords": "artificial intelligence,machine learning,ai,ml,deep learning,nlp",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "IoT Solutions",
+          "description": "Internet of Things device integration and management",
+          "sac_code": "998314",
+          "subcategory": "IoT",
+          "keywords": "iot,internet of things,sensors,automation,smart devices",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "DevOps & Automation",
+          "description": "Development operations and process automation",
+          "sac_code": "998314",
+          "subcategory": "DevOps",
+          "keywords": "devops,automation,ci cd,docker,kubernetes,jenkins",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Technical Writing",
+          "description": "Documentation and technical content creation",
+          "sac_code": "998314",
+          "subcategory": "Documentation",
+          "keywords": "technical writing,documentation,api docs,user manual",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Software Testing",
+          "description": "Quality assurance and software testing services",
+          "sac_code": "998314",
+          "subcategory": "Testing",
+          "keywords": "software testing,qa,quality assurance,automation testing,manual testing",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "IT Consulting",
+          "description": "Technology strategy and IT consulting services",
+          "sac_code": "998314",
+          "subcategory": "Consulting",
+          "keywords": "it consulting,technology consulting,strategy,advisory",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "WordPress Website Development",
+          "description": "Custom WordPress website with theme customization and plugins",
+          "sac_code": "998314",
+          "subcategory": "Web_Development",
+          "keywords": "wordpress,website,cms,blog,custom theme,plugins,wp",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 3
+        },
+        {
+          "name": "E-commerce Website Development",
+          "description": "Complete online store with payment gateway and inventory management",
+          "sac_code": "998314",
+          "subcategory": "Web_Development",
+          "keywords": "ecommerce,online store,shopping cart,payment gateway,woocommerce,shopify",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Corporate Website Development",
+          "description": "Professional corporate website with company profile and services",
+          "sac_code": "998314",
+          "subcategory": "Web_Development",
+          "keywords": "corporate,company,business website,professional,portfolio",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Custom Web Application Development",
+          "description": "Bespoke web application with custom functionality and database",
+          "sac_code": "998314",
+          "subcategory": "Web_Development",
+          "keywords": "web app,custom application,saas,dashboard,portal",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Landing Page Development",
+          "description": "High-converting single page website for marketing campaigns",
+          "sac_code": "998314",
+          "subcategory": "Web_Development",
+          "keywords": "landing page,single page,marketing,conversion,campaign",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Website Maintenance & Updates",
+          "description": "Ongoing website maintenance, updates, and technical support",
+          "sac_code": "998314",
+          "subcategory": "Web_Development",
+          "keywords": "maintenance,updates,support,bug fixes,website care",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Android App Development",
+          "description": "Native Android application development with Google Play Store deployment",
+          "sac_code": "998314",
+          "subcategory": "Mobile_Development",
+          "keywords": "android,mobile app,kotlin,java,play store,native app",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "iOS App Development",
+          "description": "Native iOS application development with App Store deployment",
+          "sac_code": "998314",
+          "subcategory": "Mobile_Development",
+          "keywords": "ios,iphone,ipad,swift,app store,native app",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Cross-Platform App Development",
+          "description": "React Native or Flutter app for both Android and iOS platforms",
+          "sac_code": "998314",
+          "subcategory": "Mobile_Development",
+          "keywords": "cross platform,react native,flutter,hybrid app,multi platform",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Website Performance Optimization",
+          "description": "Speed optimization, Core Web Vitals improvement, and performance monitoring",
+          "sac_code": "998314",
+          "subcategory": "Technical_Services",
+          "keywords": "performance optimization,speed optimization,core web vitals,website speed",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Database Design & Development",
+          "description": "Custom database architecture, design, and implementation",
+          "sac_code": "998314",
+          "subcategory": "Database_Services",
+          "keywords": "database design,database development,sql,mysql,postgresql,mongodb",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "API Development & Integration",
+          "description": "RESTful API development and third-party service integrations",
+          "sac_code": "998314",
+          "subcategory": "API_Services",
+          "keywords": "api development,rest api,api integration,web services,microservices",
+          "gst_rate": 18.0,
+          "unit": "APIs",
+          "usage_count": 0
+        },
+        {
+          "name": "Technical Support & Troubleshooting",
+          "description": "Ongoing technical support, bug fixes, and system troubleshooting",
+          "sac_code": "998314",
+          "subcategory": "Support_Services",
+          "keywords": "technical support,troubleshooting,bug fixes,system support,help desk",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Server Setup & Configuration",
+          "description": "Web server setup, configuration, and deployment services",
+          "sac_code": "998314",
+          "subcategory": "Infrastructure_Services",
+          "keywords": "server setup,server configuration,deployment,hosting,devops",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Maintenance_Services": {
+      "count": 10,
+      "services": [
+        {
+          "name": "House Cleaning",
+          "description": "Residential cleaning and maintenance",
+          "sac_code": "997321",
+          "subcategory": "Cleaning",
+          "keywords": "cleaning,house cleaning,maid,domestic,housekeeping",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 1
+        },
+        {
+          "name": "Office Cleaning",
+          "description": "Commercial office cleaning services",
+          "sac_code": "997321",
+          "subcategory": "Cleaning",
+          "keywords": "office cleaning,commercial cleaning,janitorial,workplace",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Carpet Cleaning",
+          "description": "Carpet and upholstery cleaning",
+          "sac_code": "997321",
+          "subcategory": "Cleaning",
+          "keywords": "carpet cleaning,upholstery,rug cleaning,fabric cleaning",
+          "gst_rate": 18.0,
+          "unit": "Sq Ft",
+          "usage_count": 0
+        },
+        {
+          "name": "Window Cleaning",
+          "description": "Window and glass cleaning services",
+          "sac_code": "997321",
+          "subcategory": "Cleaning",
+          "keywords": "window cleaning,glass cleaning,building maintenance",
+          "gst_rate": 18.0,
+          "unit": "Sq Ft",
+          "usage_count": 0
+        },
+        {
+          "name": "Painting Services",
+          "description": "Wall painting and home painting",
+          "sac_code": "997212",
+          "subcategory": "Painting",
+          "keywords": "painting,wall painting,home painting,painter",
+          "gst_rate": 18.0,
+          "unit": "Sq Ft",
+          "usage_count": 0
+        },
+        {
+          "name": "AC Repair & Maintenance",
+          "description": "Air conditioner repair and servicing",
+          "sac_code": "997212",
+          "subcategory": "AC",
+          "keywords": "ac repair,air conditioner,servicing,maintenance,cooling",
+          "gst_rate": 18.0,
+          "unit": "Service",
+          "usage_count": 0
+        },
+        {
+          "name": "Appliance Repair",
+          "description": "Home appliance repair services",
+          "sac_code": "997212",
+          "subcategory": "Appliance",
+          "keywords": "appliance repair,washing machine,refrigerator,microwave",
+          "gst_rate": 18.0,
+          "unit": "Service",
+          "usage_count": 0
+        },
+        {
+          "name": "Plumbing Services",
+          "description": "Water pipe repair and plumbing work",
+          "sac_code": "997212",
+          "subcategory": "Plumbing",
+          "keywords": "plumbing,pipe repair,water,drainage,plumber",
+          "gst_rate": 18.0,
+          "unit": "Service",
+          "usage_count": 0
+        },
+        {
+          "name": "Electrical Services",
+          "description": "Electrical wiring and repair work",
+          "sac_code": "997212",
+          "subcategory": "Electrical",
+          "keywords": "electrical,wiring,electrician,repair,installation",
+          "gst_rate": 18.0,
+          "unit": "Service",
+          "usage_count": 0
+        },
+        {
+          "name": "Carpentry Services",
+          "description": "Wood work and furniture repair",
+          "sac_code": "997212",
+          "subcategory": "Carpentry",
+          "keywords": "carpentry,wood work,furniture,carpenter,repair",
+          "gst_rate": 18.0,
+          "unit": "Service",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Marketing_Services": {
+      "count": 13,
+      "services": [
+        {
+          "name": "Digital Marketing",
+          "description": "Comprehensive digital marketing campaigns",
+          "sac_code": "998399",
+          "subcategory": "Digital",
+          "keywords": "digital marketing,online marketing,campaign,strategy,branding",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "SEO Services",
+          "description": "Search engine optimization services",
+          "sac_code": "998399",
+          "subcategory": "SEO",
+          "keywords": "seo,search engine optimization,ranking,keywords,google,organic traffic",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Google Ads Management",
+          "description": "Google AdWords campaign management",
+          "sac_code": "998399",
+          "subcategory": "PPC",
+          "keywords": "google ads,adwords,ppc,pay per click,advertising,campaign management",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Content Marketing",
+          "description": "Content strategy and creation services",
+          "sac_code": "998399",
+          "subcategory": "Content",
+          "keywords": "content marketing,blog,articles,content strategy,copywriting",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Email Marketing",
+          "description": "Email campaign design and management",
+          "sac_code": "998399",
+          "subcategory": "Email",
+          "keywords": "email marketing,newsletter,campaign,automation,mailchimp",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Influencer Marketing",
+          "description": "Influencer outreach and campaign management",
+          "sac_code": "998399",
+          "subcategory": "Influencer",
+          "keywords": "influencer,marketing,outreach,collaboration,brand ambassador",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Video Marketing",
+          "description": "Video content creation and promotion",
+          "sac_code": "998399",
+          "subcategory": "Video",
+          "keywords": "video marketing,youtube,video content,promotional videos,video ads",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Marketing Analytics",
+          "description": "Marketing performance analysis and reporting",
+          "sac_code": "998399",
+          "subcategory": "Analytics",
+          "keywords": "marketing analytics,roi,performance,reporting,google analytics",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Brand Strategy",
+          "description": "Brand development and positioning services",
+          "sac_code": "998399",
+          "subcategory": "Branding",
+          "keywords": "brand strategy,positioning,brand development,market research",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Search Engine Marketing",
+          "description": "SEM, Google Ads and paid search campaigns",
+          "sac_code": "998399",
+          "subcategory": "SEM",
+          "keywords": "sem,google ads,paid search,ppc,adwords,search marketing",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Social Media Management",
+          "description": "Complete social media account management",
+          "sac_code": "998399",
+          "subcategory": "Social Media",
+          "keywords": "social media management,facebook,instagram,twitter,linkedin,content",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Affiliate Marketing",
+          "description": "Affiliate program setup and management",
+          "sac_code": "998399",
+          "subcategory": "Affiliate",
+          "keywords": "affiliate marketing,referral program,commission,partnership",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Public Relations",
+          "description": "PR services and media relations",
+          "sac_code": "998399",
+          "subcategory": "PR",
+          "keywords": "public relations,pr,media relations,press release,publicity",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Pet_Services": {
+      "count": 5,
+      "services": [
+        {
+          "name": "Pet Grooming",
+          "description": "Pet grooming and care services",
+          "sac_code": "998399",
+          "subcategory": "Grooming",
+          "keywords": "pet grooming,dog,cat,animal care,pet care",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Veterinary Service",
+          "description": "Animal health and veterinary care",
+          "sac_code": "998399",
+          "subcategory": "Veterinary",
+          "keywords": "veterinary,vet,animal health,pet health",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Pet Training",
+          "description": "Pet behavior training and obedience",
+          "sac_code": "998399",
+          "subcategory": "Training",
+          "keywords": "pet training,dog training,obedience,behavior",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Veterinary Services",
+          "description": "Animal health and medical care",
+          "sac_code": "998399",
+          "subcategory": "Medical",
+          "keywords": "veterinary,vet,animal health,pet health,medical",
+          "gst_rate": 18.0,
+          "unit": "Consultation",
+          "usage_count": 0
+        },
+        {
+          "name": "Pet Boarding",
+          "description": "Pet care and boarding services",
+          "sac_code": "998399",
+          "subcategory": "Boarding",
+          "keywords": "pet boarding,pet care,dog boarding,animal care",
+          "gst_rate": 18.0,
+          "unit": "Day",
+          "usage_count": 1
+        }
+      ]
+    },
+    "Photography": {
+      "count": 3,
+      "services": [
+        {
+          "name": "Wedding Photography",
+          "description": "Wedding ceremony photography services",
+          "sac_code": "998399",
+          "subcategory": "Wedding",
+          "keywords": "wedding photography,marriage,ceremony,bridal,photographer",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Product Photography",
+          "description": "Commercial product photography",
+          "sac_code": "998399",
+          "subcategory": "Product",
+          "keywords": "product photography,commercial,e-commerce,catalog",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Portrait Photography",
+          "description": "Personal and family portrait photography",
+          "sac_code": "998399",
+          "subcategory": "Portrait",
+          "keywords": "portrait,family photo,personal,studio photography",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Professional_Services": {
+      "count": 18,
+      "services": [
+        {
+          "name": "Business Consulting",
+          "description": "Strategic business consulting and advisory",
+          "sac_code": "998399",
+          "subcategory": "Consulting",
+          "keywords": "business consulting,strategy,advisory,management consulting,business plan",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Financial Consulting",
+          "description": "Financial planning and advisory services",
+          "sac_code": "998399",
+          "subcategory": "Finance",
+          "keywords": "financial consulting,planning,investment,finance,accounting,bookkeeping",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Legal Services",
+          "description": "Legal consultation and documentation",
+          "sac_code": "998399",
+          "subcategory": "Legal",
+          "keywords": "legal,lawyer,attorney,legal advice,documentation,contracts",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "HR Consulting",
+          "description": "Human resources consulting and recruitment",
+          "sac_code": "998399",
+          "subcategory": "HR",
+          "keywords": "hr,human resources,recruitment,hiring,employee,consulting",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Project Management",
+          "description": "Project planning and management services",
+          "sac_code": "998399",
+          "subcategory": "Management",
+          "keywords": "project management,planning,coordination,project execution,pmp",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Market Research",
+          "description": "Market analysis and research services",
+          "sac_code": "998399",
+          "subcategory": "Research",
+          "keywords": "market research,analysis,survey,consumer research,market study",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Training & Development",
+          "description": "Corporate training and skill development",
+          "sac_code": "998399",
+          "subcategory": "Training",
+          "keywords": "training,development,corporate training,workshop,skill development",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Translation Services",
+          "description": "Document and content translation",
+          "sac_code": "998399",
+          "subcategory": "Translation",
+          "keywords": "translation,language,document translation,interpretation,localization",
+          "gst_rate": 18.0,
+          "unit": "Words",
+          "usage_count": 0
+        },
+        {
+          "name": "Data Entry",
+          "description": "Data entry and processing services",
+          "sac_code": "998399",
+          "subcategory": "Data",
+          "keywords": "data entry,data processing,typing,data conversion,digitization",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Virtual Assistant",
+          "description": "Virtual administrative assistance services",
+          "sac_code": "998399",
+          "subcategory": "Admin",
+          "keywords": "virtual assistant,admin,administrative,support,remote assistance",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Legal Documentation",
+          "description": "Legal document preparation and review",
+          "sac_code": "998399",
+          "subcategory": "Legal",
+          "keywords": "legal documentation,contracts,agreements,legal review",
+          "gst_rate": 18.0,
+          "unit": "Document",
+          "usage_count": 0
+        },
+        {
+          "name": "Patent Services",
+          "description": "Patent filing and intellectual property services",
+          "sac_code": "998399",
+          "subcategory": "IP",
+          "keywords": "patent,intellectual property,trademark,copyright,ip",
+          "gst_rate": 18.0,
+          "unit": "Application",
+          "usage_count": 0
+        },
+        {
+          "name": "Tax Consultation",
+          "description": "Tax planning and compliance services",
+          "sac_code": "998313",
+          "subcategory": "Tax",
+          "keywords": "tax consultation,tax planning,tax filing,compliance",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Business Registration",
+          "description": "Company incorporation and registration services",
+          "sac_code": "998399",
+          "subcategory": "Registration",
+          "keywords": "business registration,company incorporation,startup,legal entity",
+          "gst_rate": 18.0,
+          "unit": "Application",
+          "usage_count": 0
+        },
+        {
+          "name": "Investment Advisory",
+          "description": "Financial investment and portfolio advisory",
+          "sac_code": "998313",
+          "subcategory": "Investment",
+          "keywords": "investment advisory,portfolio,financial planning,wealth management",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Insurance Services",
+          "description": "Insurance consultation and policy services",
+          "sac_code": "998313",
+          "subcategory": "Insurance",
+          "keywords": "insurance,policy,life insurance,health insurance,general insurance",
+          "gst_rate": 18.0,
+          "unit": "Policy",
+          "usage_count": 0
+        },
+        {
+          "name": "Loan Services",
+          "description": "Loan processing and financial assistance",
+          "sac_code": "998313",
+          "subcategory": "Finance",
+          "keywords": "loan,home loan,personal loan,business loan,finance",
+          "gst_rate": 18.0,
+          "unit": "Application",
+          "usage_count": 0
+        },
+        {
+          "name": "Recruitment Services",
+          "description": "Talent acquisition and placement services",
+          "sac_code": "998399",
+          "subcategory": "HR",
+          "keywords": "recruitment,hiring,talent acquisition,job placement,staffing",
+          "gst_rate": 18.0,
+          "unit": "Position",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Real_Estate": {
+      "count": 6,
+      "services": [
+        {
+          "name": "Property Management",
+          "description": "Real estate property management services",
+          "sac_code": "997211",
+          "subcategory": "Management",
+          "keywords": "property management,real estate,rental,property",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Real Estate Broker",
+          "description": "Property buying and selling brokerage",
+          "sac_code": "997211",
+          "subcategory": "Brokerage",
+          "keywords": "real estate,broker,property,buying,selling",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Property Valuation",
+          "description": "Property assessment and valuation services",
+          "sac_code": "997211",
+          "subcategory": "Valuation",
+          "keywords": "property valuation,assessment,appraisal,real estate",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Real Estate Brokerage",
+          "description": "Property buying and selling services",
+          "sac_code": "997211",
+          "subcategory": "Brokerage",
+          "keywords": "real estate,property broker,buying,selling,agent",
+          "gst_rate": 5.0,
+          "unit": "Transaction",
+          "usage_count": 0
+        },
+        {
+          "name": "Property Rental",
+          "description": "Residential and commercial property rental",
+          "sac_code": "997211",
+          "subcategory": "Rental",
+          "keywords": "property rental,house rent,office rent,residential",
+          "gst_rate": 0.0,
+          "unit": "Month",
+          "usage_count": 0
+        },
+        {
+          "name": "Construction Services",
+          "description": "Building construction and contracting",
+          "sac_code": "995411",
+          "subcategory": "Construction",
+          "keywords": "construction,building,contractor,civil work",
+          "gst_rate": 12.0,
+          "unit": "Sq Ft",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Security_Services": {
+      "count": 5,
+      "services": [
+        {
+          "name": "Security Guard",
+          "description": "Physical security guard services",
+          "sac_code": "997311",
+          "subcategory": "Physical",
+          "keywords": "security,guard,protection,safety,surveillance",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "CCTV Installation",
+          "description": "CCTV camera installation and monitoring",
+          "sac_code": "997311",
+          "subcategory": "CCTV",
+          "keywords": "cctv,camera,surveillance,monitoring,security system",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Alarm System",
+          "description": "Security alarm system installation",
+          "sac_code": "997311",
+          "subcategory": "Alarm",
+          "keywords": "alarm,security system,burglar alarm,fire alarm",
+          "gst_rate": 18.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Security Guard Services",
+          "description": "Physical security and guard services",
+          "sac_code": "997311",
+          "subcategory": "Guard",
+          "keywords": "security guard,protection,safety,surveillance",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Home Security Systems",
+          "description": "Residential security system installation",
+          "sac_code": "997311",
+          "subcategory": "Home",
+          "keywords": "home security,alarm system,residential security",
+          "gst_rate": 18.0,
+          "unit": "Installation",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Technical_Services": {
+      "count": 5,
+      "services": [
+        {
+          "name": "Computer Repair",
+          "description": "Computer hardware repair and maintenance",
+          "sac_code": "997212",
+          "subcategory": "Repair",
+          "keywords": "computer repair,hardware,maintenance,laptop repair,desktop repair",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Printer Repair",
+          "description": "Printer and scanner repair services",
+          "sac_code": "997212",
+          "subcategory": "Repair",
+          "keywords": "printer repair,scanner repair,office equipment,printing",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Mobile Repair",
+          "description": "Smartphone and tablet repair services",
+          "sac_code": "997212",
+          "subcategory": "Repair",
+          "keywords": "mobile repair,smartphone repair,tablet repair,screen replacement",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Server Maintenance",
+          "description": "Server hardware maintenance and support",
+          "sac_code": "997212",
+          "subcategory": "Maintenance",
+          "keywords": "server maintenance,hardware,server support,infrastructure",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Network Maintenance",
+          "description": "Network infrastructure maintenance",
+          "sac_code": "997212",
+          "subcategory": "Maintenance",
+          "keywords": "network maintenance,infrastructure,router,switch,wifi",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Telecommunications": {
+      "count": 3,
+      "services": [
+        {
+          "name": "Telecom Installation",
+          "description": "Telecommunications equipment installation",
+          "sac_code": "998414",
+          "subcategory": "Installation",
+          "keywords": "telecom,installation,phone,internet,network",
+          "gst_rate": 18.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Internet Service",
+          "description": "Internet connectivity and broadband services",
+          "sac_code": "998414",
+          "subcategory": "Internet",
+          "keywords": "internet,broadband,wifi,connectivity,isp",
+          "gst_rate": 18.0,
+          "unit": "Months",
+          "usage_count": 0
+        },
+        {
+          "name": "Phone Service",
+          "description": "Telephone and communication services",
+          "sac_code": "998414",
+          "subcategory": "Phone",
+          "keywords": "phone,telephone,communication,mobile,landline",
+          "gst_rate": 18.0,
+          "unit": "Months",
+          "usage_count": 0
+        }
+      ]
+    },
+    "Transportation": {
+      "count": 8,
+      "services": [
+        {
+          "name": "Taxi Service",
+          "description": "Taxi and cab transportation services",
+          "sac_code": "996511",
+          "subcategory": "Taxi",
+          "keywords": "taxi,cab,transport,travel,ride",
+          "gst_rate": 5.0,
+          "unit": "Km",
+          "usage_count": 0
+        },
+        {
+          "name": "Delivery Service",
+          "description": "Package and goods delivery services",
+          "sac_code": "996511",
+          "subcategory": "Delivery",
+          "keywords": "delivery,courier,shipping,logistics,package",
+          "gst_rate": 5.0,
+          "unit": "Nos",
+          "usage_count": 0
+        },
+        {
+          "name": "Moving Service",
+          "description": "Household and office relocation services",
+          "sac_code": "996511",
+          "subcategory": "Moving",
+          "keywords": "moving,relocation,shifting,packing,transportation",
+          "gst_rate": 5.0,
+          "unit": "Hours",
+          "usage_count": 0
+        },
+        {
+          "name": "Taxi & Cab Services",
+          "description": "Local transportation and taxi services",
+          "sac_code": "996511",
+          "subcategory": "Taxi",
+          "keywords": "taxi,cab,transport,uber,ola,ride",
+          "gst_rate": 5.0,
+          "unit": "Trip",
+          "usage_count": 0
+        },
+        {
+          "name": "Delivery Services",
+          "description": "Package delivery and courier services",
+          "sac_code": "996511",
+          "subcategory": "Delivery",
+          "keywords": "delivery,courier,package,shipping,logistics",
+          "gst_rate": 5.0,
+          "unit": "Delivery",
+          "usage_count": 0
+        },
+        {
+          "name": "Moving Services",
+          "description": "Household and office relocation",
+          "sac_code": "996511",
+          "subcategory": "Moving",
+          "keywords": "moving,relocation,packers,movers,shifting",
+          "gst_rate": 5.0,
+          "unit": "Move",
+          "usage_count": 0
+        },
+        {
+          "name": "Car Rental",
+          "description": "Vehicle rental and leasing services",
+          "sac_code": "996511",
+          "subcategory": "Rental",
+          "keywords": "car rental,vehicle rental,self drive,lease",
+          "gst_rate": 5.0,
+          "unit": "Day",
+          "usage_count": 0
+        },
+        {
+          "name": "Logistics Services",
+          "description": "Supply chain and logistics management",
+          "sac_code": "996511",
+          "subcategory": "Logistics",
+          "keywords": "logistics,supply chain,warehousing,distribution",
+          "gst_rate": 5.0,
+          "unit": "Shipment",
+          "usage_count": 0
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_services": 201,
+    "total_categories": 26
+  }
+}

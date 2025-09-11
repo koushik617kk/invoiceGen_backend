@@ -1,0 +1,2168 @@
+================================================================================
+MASTER SERVICES - CATEGORY WISE ANALYSIS
+================================================================================
+
+📊 TOTAL SERVICES: 201
+📊 TOTAL CATEGORIES: 26
+
+============================================================
+🏷️  CATEGORY: Agriculture
+============================================================
+📈 Services in this category: 3
+📂 Subcategories: Pest Control, Landscaping, Consulting
+🔢 SAC Codes: 998211
+💰 GST Rates: 12.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Farming Consultation
+    📝 Description: Agricultural consulting and farm management
+    🔢 SAC Code: 998211
+    📂 Subcategory: Consulting
+    🏷️  Keywords: farming,agriculture,crop,consultation,farm management
+    💰 GST Rate: 12.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Landscaping
+    📝 Description: Garden and landscape design services
+    🔢 SAC Code: 998211
+    📂 Subcategory: Landscaping
+    🏷️  Keywords: landscaping,garden,lawn,plants,landscape design
+    💰 GST Rate: 12.0%
+    📏 Unit: Sq Ft
+    📊 Usage Count: 0
+
+ 3. Pest Control
+    📝 Description: Agricultural and residential pest control
+    🔢 SAC Code: 998211
+    📂 Subcategory: Pest Control
+    🏷️  Keywords: pest control,insects,termite,fumigation,extermination
+    💰 GST Rate: 12.0%
+    📏 Unit: Sq Ft
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Automotive
+============================================================
+📈 Services in this category: 3
+📂 Subcategories: Repair, Tire, Cleaning
+🔢 SAC Codes: 997212
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Car Wash
+    📝 Description: Vehicle cleaning and detailing services
+    🔢 SAC Code: 997212
+    📂 Subcategory: Cleaning
+    🏷️  Keywords: car wash,vehicle cleaning,detailing,auto care
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 3
+
+ 2. Car Repair
+    📝 Description: Automobile repair and maintenance
+    🔢 SAC Code: 997212
+    📂 Subcategory: Repair
+    🏷️  Keywords: car repair,automobile,vehicle,maintenance,mechanic
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Tire Service
+    📝 Description: Tire installation and repair services
+    🔢 SAC Code: 997212
+    📂 Subcategory: Tire
+    🏷️  Keywords: tire,wheel,puncture,tire repair,installation
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Beauty Services
+============================================================
+📈 Services in this category: 8
+📂 Subcategories: Hair, Spa, Nails, Makeup, Beauty
+🔢 SAC Codes: 997331
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Beauty Parlour Services
+    📝 Description: Facial, beauty treatments and makeup
+    🔢 SAC Code: 997331
+    📂 Subcategory: Beauty
+    🏷️  Keywords: beauty parlour,facial,makeup,beauty treatment
+    💰 GST Rate: 18.0%
+    📏 Unit: Service
+    📊 Usage Count: 0
+
+ 2. Hair Cutting
+    📝 Description: Hair cutting and styling services
+    🔢 SAC Code: 997331
+    📂 Subcategory: Hair
+    🏷️  Keywords: hair cut,styling,salon,barber,grooming
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+ 3. Hair Salon Services
+    📝 Description: Hair cutting, styling and treatments
+    🔢 SAC Code: 997331
+    📂 Subcategory: Hair
+    🏷️  Keywords: hair salon,hair cut,styling,hair treatment,salon
+    💰 GST Rate: 18.0%
+    📏 Unit: Service
+    📊 Usage Count: 0
+
+ 4. Makeup Service
+    📝 Description: Professional makeup and beauty services
+    🔢 SAC Code: 997331
+    📂 Subcategory: Makeup
+    🏷️  Keywords: makeup,beauty,cosmetics,bridal makeup,party makeup
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Manicure Pedicure
+    📝 Description: Nail care and beauty services
+    🔢 SAC Code: 997331
+    📂 Subcategory: Nails
+    🏷️  Keywords: manicure,pedicure,nail care,nail art,beauty
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+ 6. Nail Services
+    📝 Description: Manicure, pedicure and nail art
+    🔢 SAC Code: 997331
+    📂 Subcategory: Nails
+    🏷️  Keywords: manicure,pedicure,nail art,nail care
+    💰 GST Rate: 18.0%
+    📏 Unit: Service
+    📊 Usage Count: 0
+
+ 7. Spa Service
+    📝 Description: Spa and wellness treatment services
+    🔢 SAC Code: 997331
+    📂 Subcategory: Spa
+    🏷️  Keywords: spa,wellness,massage,relaxation,therapy
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 8. Spa Services
+    📝 Description: Wellness spa and relaxation treatments
+    🔢 SAC Code: 997331
+    📂 Subcategory: Spa
+    🏷️  Keywords: spa,wellness,relaxation,body treatment,therapy
+    💰 GST Rate: 18.0%
+    📏 Unit: Service
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Construction
+============================================================
+📈 Services in this category: 5
+📂 Subcategories: Electrical, Building, Renovation, Interior, Plumbing
+🔢 SAC Codes: 995411
+💰 GST Rates: 12.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Building Construction
+    📝 Description: Residential and commercial construction
+    🔢 SAC Code: 995411
+    📂 Subcategory: Building
+    🏷️  Keywords: construction,building,residential,commercial,contractor
+    💰 GST Rate: 12.0%
+    📏 Unit: Sq Ft
+    📊 Usage Count: 0
+
+ 2. Electrical Work
+    📝 Description: Electrical installation and maintenance
+    🔢 SAC Code: 995411
+    📂 Subcategory: Electrical
+    🏷️  Keywords: electrical,wiring,installation,electrician,power
+    💰 GST Rate: 12.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Interior Design
+    📝 Description: Interior design and decoration services
+    🔢 SAC Code: 995411
+    📂 Subcategory: Interior
+    🏷️  Keywords: interior design,decoration,home design,office design,furnishing
+    💰 GST Rate: 12.0%
+    📏 Unit: Sq Ft
+    📊 Usage Count: 0
+
+ 4. Plumbing
+    📝 Description: Plumbing installation and repair
+    🔢 SAC Code: 995411
+    📂 Subcategory: Plumbing
+    🏷️  Keywords: plumbing,pipe,water,drainage,installation,repair
+    💰 GST Rate: 12.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Renovation
+    📝 Description: Building renovation and remodeling
+    🔢 SAC Code: 995411
+    📂 Subcategory: Renovation
+    🏷️  Keywords: renovation,remodeling,refurbishment,home improvement
+    💰 GST Rate: 12.0%
+    📏 Unit: Sq Ft
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Consulting Services
+============================================================
+📈 Services in this category: 2
+📂 Subcategories: Business_Consulting, Technology_Consulting
+🔢 SAC Codes: 998314
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Business Strategy Consulting
+    📝 Description: Strategic business planning, market analysis, and growth strategies
+    🔢 SAC Code: 998314
+    📂 Subcategory: Business_Consulting
+    🏷️  Keywords: business strategy,consulting,planning,market analysis,growth strategy
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Digital Transformation Consulting
+    📝 Description: Technology adoption strategy and digital process improvement
+    🔢 SAC Code: 998314
+    📂 Subcategory: Technology_Consulting
+    🏷️  Keywords: digital transformation,technology consulting,process improvement,automation
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Creative Services
+============================================================
+📈 Services in this category: 17
+📂 Subcategories: Photography, Animation, Video, Packaging, Branding, 3D, Illustration, Writing, Audio, Fashion, Design
+🔢 SAC Codes: 998399
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Web Design
+    📝 Description: Website design and user interface creation
+    🔢 SAC Code: 998399
+    📂 Subcategory: Design
+    🏷️  Keywords: web design,website design,ui design,responsive design,layout
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 1
+
+ 2. 3D Design & Modeling
+    📝 Description: 3D graphics, modeling and animation services
+    🔢 SAC Code: 998399
+    📂 Subcategory: 3D
+    🏷️  Keywords: 3d design,3d modeling,animation,3d graphics,rendering
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Animation
+    📝 Description: 2D and 3D animation services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Animation
+    🏷️  Keywords: animation,2d animation,3d animation,motion graphics,explainer video
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 4. Audio Production
+    📝 Description: Music production and audio editing services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Audio
+    🏷️  Keywords: audio production,music production,sound editing,recording
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Content Writing
+    📝 Description: Professional content and copywriting services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Writing
+    🏷️  Keywords: content writing,copywriting,blog writing,website content,articles
+    💰 GST Rate: 18.0%
+    📏 Unit: Words
+    📊 Usage Count: 0
+
+ 6. Fashion Design
+    📝 Description: Clothing and accessory design services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Fashion
+    🏷️  Keywords: fashion design,clothing design,textile design,pattern making
+    💰 GST Rate: 18.0%
+    📏 Unit: Design
+    📊 Usage Count: 0
+
+ 7. Graphic Design
+    📝 Description: Visual design and graphic creation services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Design
+    🏷️  Keywords: graphic design,logo,branding,visual design,creative,artwork
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 8. Illustration
+    📝 Description: Custom illustration and artwork creation
+    🔢 SAC Code: 998399
+    📂 Subcategory: Illustration
+    🏷️  Keywords: illustration,artwork,custom art,digital illustration,vector art
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 9. Illustration Services
+    📝 Description: Custom illustrations and artwork creation
+    🔢 SAC Code: 998399
+    📂 Subcategory: Illustration
+    🏷️  Keywords: illustration,artwork,custom art,digital illustration
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+10. Logo & Branding Design
+    📝 Description: Logo design and complete brand identity
+    🔢 SAC Code: 998399
+    📂 Subcategory: Branding
+    🏷️  Keywords: logo design,brand identity,corporate identity,branding
+    💰 GST Rate: 18.0%
+    📏 Unit: Project
+    📊 Usage Count: 0
+
+11. Logo Design
+    📝 Description: Professional logo and brand identity design
+    🔢 SAC Code: 998399
+    📂 Subcategory: Design
+    🏷️  Keywords: logo,brand identity,corporate identity,design,visual branding
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+12. Packaging Design
+    📝 Description: Product packaging and label design
+    🔢 SAC Code: 998399
+    📂 Subcategory: Packaging
+    🏷️  Keywords: packaging design,label design,product packaging
+    💰 GST Rate: 18.0%
+    📏 Unit: Project
+    📊 Usage Count: 0
+
+13. Photography
+    📝 Description: Professional photography services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Photography
+    🏷️  Keywords: photography,photo shoot,product photography,portrait,commercial photography
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+14. Photography Services
+    📝 Description: Professional photography for events and products
+    🔢 SAC Code: 998399
+    📂 Subcategory: Photography
+    🏷️  Keywords: photography,photo shoot,event photography,product photography
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+15. Print Design
+    📝 Description: Print materials and publication design
+    🔢 SAC Code: 998399
+    📂 Subcategory: Design
+    🏷️  Keywords: print design,brochure,flyer,poster,business card,catalog
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+16. Video Production
+    📝 Description: Video creation and post-production services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Video
+    🏷️  Keywords: video production,filming,editing,post production,commercial
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+17. Voice Over
+    📝 Description: Professional voice over and narration services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Audio
+    🏷️  Keywords: voice over,narration,audio,voice recording,commercial voice
+    💰 GST Rate: 18.0%
+    📏 Unit: Minutes
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Design Services
+============================================================
+📈 Services in this category: 3
+📂 Subcategories: Graphic_Design, UI_UX_Design
+🔢 SAC Codes: 998314
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Logo Design & Branding
+    📝 Description: Custom logo design with complete brand identity package
+    🔢 SAC Code: 998314
+    📂 Subcategory: Graphic_Design
+    🏷️  Keywords: logo design,branding,brand identity,graphic design,visual identity
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+ 2. Mobile App UI/UX Design
+    📝 Description: User interface and experience design for mobile applications
+    🔢 SAC Code: 998314
+    📂 Subcategory: UI_UX_Design
+    🏷️  Keywords: mobile ui,mobile ux,app design,mobile interface,app experience
+    💰 GST Rate: 18.0%
+    📏 Unit: Screens
+    📊 Usage Count: 0
+
+ 3. UI/UX Design for Web Applications
+    📝 Description: User interface and experience design for web platforms
+    🔢 SAC Code: 998314
+    📂 Subcategory: UI_UX_Design
+    🏷️  Keywords: ui design,ux design,user interface,user experience,web design
+    💰 GST Rate: 18.0%
+    📏 Unit: Screens
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Digital Marketing
+============================================================
+📈 Services in this category: 4
+📂 Subcategories: SEO_Services, PPC_Services, Content_Services, Social_Media
+🔢 SAC Codes: 998315
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Content Writing Services
+    📝 Description: Professional blog posts, website content, and marketing copy writing
+    🔢 SAC Code: 998315
+    📂 Subcategory: Content_Services
+    🏷️  Keywords: content writing,blog posts,copywriting,articles,web content
+    💰 GST Rate: 18.0%
+    📏 Unit: Articles
+    📊 Usage Count: 0
+
+ 2. Google Ads Campaign Management
+    📝 Description: Complete Google Ads setup, optimization, and performance management
+    🔢 SAC Code: 998315
+    📂 Subcategory: PPC_Services
+    🏷️  Keywords: google ads,ppc,paid advertising,adwords,campaign management
+    💰 GST Rate: 18.0%
+    📏 Unit: Months
+    📊 Usage Count: 0
+
+ 3. Search Engine Optimization (SEO)
+    📝 Description: Complete SEO audit, keyword research, and organic ranking improvement
+    🔢 SAC Code: 998315
+    📂 Subcategory: SEO_Services
+    🏷️  Keywords: seo,search engine optimization,google ranking,keywords,organic traffic
+    💰 GST Rate: 18.0%
+    📏 Unit: Months
+    📊 Usage Count: 0
+
+ 4. Social Media Marketing
+    📝 Description: Complete social media strategy, content creation, and community management
+    🔢 SAC Code: 998315
+    📂 Subcategory: Social_Media
+    🏷️  Keywords: social media,facebook,instagram,linkedin,content marketing,smm
+    💰 GST Rate: 18.0%
+    📏 Unit: Months
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Education
+============================================================
+📈 Services in this category: 7
+📂 Subcategories: Art, Skills, Dance, Tutoring, Training, Language, Music
+🔢 SAC Codes: 998321
+💰 GST Rates: 0.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Art Classes
+    📝 Description: Drawing, painting and art instruction
+    🔢 SAC Code: 998321
+    📂 Subcategory: Art
+    🏷️  Keywords: art classes,painting,drawing,sketching,art
+    💰 GST Rate: 0.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Dance Classes
+    📝 Description: Dance instruction and choreography
+    🔢 SAC Code: 998321
+    📂 Subcategory: Dance
+    🏷️  Keywords: dance classes,choreography,classical,modern,dance
+    💰 GST Rate: 0.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Language Classes
+    📝 Description: Foreign language learning classes
+    🔢 SAC Code: 998321
+    📂 Subcategory: Language
+    🏷️  Keywords: language,english,hindi,foreign language,classes
+    💰 GST Rate: 0.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 4. Music Lessons
+    📝 Description: Music instrument and vocal lessons
+    🔢 SAC Code: 998321
+    📂 Subcategory: Music
+    🏷️  Keywords: music,lessons,instrument,vocal,guitar,piano
+    💰 GST Rate: 0.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Online Tutoring
+    📝 Description: Online educational tutoring services
+    🔢 SAC Code: 998321
+    📂 Subcategory: Tutoring
+    🏷️  Keywords: tutoring,education,online learning,teaching,academic
+    💰 GST Rate: 0.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 6. Skill Development Training
+    📝 Description: Professional skill and certification training
+    🔢 SAC Code: 998321
+    📂 Subcategory: Skills
+    🏷️  Keywords: skill development,certification,professional training,courses
+    💰 GST Rate: 0.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 7. Skill Training
+    📝 Description: Professional skill development training
+    🔢 SAC Code: 998321
+    📂 Subcategory: Training
+    🏷️  Keywords: skill training,professional development,certification,course
+    💰 GST Rate: 0.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Entertainment
+============================================================
+📈 Services in this category: 3
+📂 Subcategories: Music, Dance
+🔢 SAC Codes: 998399
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. DJ Service
+    📝 Description: Music and DJ services for events
+    🔢 SAC Code: 998399
+    📂 Subcategory: Music
+    🏷️  Keywords: dj,music,party,event,entertainment
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Dance Performance
+    📝 Description: Dance and choreography services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Dance
+    🏷️  Keywords: dance,choreography,performance,cultural,traditional
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Live Music
+    📝 Description: Live musical performance services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Music
+    🏷️  Keywords: live music,band,performance,concert,musician
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Event Services
+============================================================
+📈 Services in this category: 8
+📂 Subcategories: Planning, Entertainment, Wedding, Corporate, Catering, Music, Birthday
+🔢 SAC Codes: 998399, 996331
+💰 GST Rates: 5.0%, 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Birthday Party Planning
+    📝 Description: Birthday and celebration event planning
+    🔢 SAC Code: 998399
+    📂 Subcategory: Birthday
+    🏷️  Keywords: birthday party,celebration,party planning,event
+    💰 GST Rate: 18.0%
+    📏 Unit: Event
+    📊 Usage Count: 0
+
+ 2. Catering Services
+    📝 Description: Food catering for events and parties
+    🔢 SAC Code: 996331
+    📂 Subcategory: Catering
+    🏷️  Keywords: catering,food,event catering,party food,wedding catering
+    💰 GST Rate: 5.0%
+    📏 Unit: Event
+    📊 Usage Count: 0
+
+ 3. Conference Management
+    📝 Description: Corporate conference and meeting management
+    🔢 SAC Code: 998399
+    📂 Subcategory: Corporate
+    🏷️  Keywords: conference,meeting,corporate event,seminar,workshop
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 4. Corporate Event Management
+    📝 Description: Business conferences and corporate events
+    🔢 SAC Code: 998399
+    📂 Subcategory: Corporate
+    🏷️  Keywords: corporate event,conference,seminar,business event
+    💰 GST Rate: 18.0%
+    📏 Unit: Event
+    📊 Usage Count: 0
+
+ 5. DJ Services
+    📝 Description: Music and DJ services for events
+    🔢 SAC Code: 998399
+    📂 Subcategory: Music
+    🏷️  Keywords: dj,music,party,event entertainment,sound
+    💰 GST Rate: 18.0%
+    📏 Unit: Event
+    📊 Usage Count: 0
+
+ 6. Event Planning
+    📝 Description: Event planning and management services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Planning
+    🏷️  Keywords: event planning,wedding,party,conference,event management
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 7. Live Entertainment
+    📝 Description: Live music and entertainment performances
+    🔢 SAC Code: 998399
+    📂 Subcategory: Entertainment
+    🏷️  Keywords: live entertainment,music,performance,band,artist
+    💰 GST Rate: 18.0%
+    📏 Unit: Event
+    📊 Usage Count: 0
+
+ 8. Wedding Planning
+    📝 Description: Wedding ceremony planning and coordination
+    🔢 SAC Code: 998399
+    📂 Subcategory: Wedding
+    🏷️  Keywords: wedding planning,marriage,ceremony,reception,bridal
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Financial Services
+============================================================
+📈 Services in this category: 4
+📂 Subcategories: Tax, Planning, Accounting, Insurance
+🔢 SAC Codes: 998313
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Accounting Service
+    📝 Description: Bookkeeping and accounting services
+    🔢 SAC Code: 998313
+    📂 Subcategory: Accounting
+    🏷️  Keywords: accounting,bookkeeping,finance,tax,audit
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Financial Planning
+    📝 Description: Personal financial planning and investment
+    🔢 SAC Code: 998313
+    📂 Subcategory: Planning
+    🏷️  Keywords: financial planning,investment,portfolio,wealth management
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Insurance Service
+    📝 Description: Insurance consultation and policy services
+    🔢 SAC Code: 998313
+    📂 Subcategory: Insurance
+    🏷️  Keywords: insurance,policy,life insurance,health insurance
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 4. Tax Preparation
+    📝 Description: Income tax return preparation
+    🔢 SAC Code: 998313
+    📂 Subcategory: Tax
+    🏷️  Keywords: tax,income tax,return,preparation,filing
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Fitness
+============================================================
+📈 Services in this category: 3
+📂 Subcategories: Gym, Training, Yoga
+🔢 SAC Codes: 998399
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Gym Membership
+    📝 Description: Fitness center and gym services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Gym
+    🏷️  Keywords: gym,fitness center,workout,equipment,membership
+    💰 GST Rate: 18.0%
+    📏 Unit: Months
+    📊 Usage Count: 0
+
+ 2. Personal Training
+    📝 Description: Personal fitness training services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Training
+    🏷️  Keywords: personal training,fitness,gym,workout,exercise
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Yoga Classes
+    📝 Description: Yoga instruction and wellness classes
+    🔢 SAC Code: 998399
+    📂 Subcategory: Yoga
+    🏷️  Keywords: yoga,meditation,wellness,fitness,health
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Food Services
+============================================================
+📈 Services in this category: 3
+📂 Subcategories: Delivery, Restaurant, Catering
+🔢 SAC Codes: 996331
+💰 GST Rates: 5.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Catering Service
+    📝 Description: Event catering and food services
+    🔢 SAC Code: 996331
+    📂 Subcategory: Catering
+    🏷️  Keywords: catering,food,event,party,wedding,buffet
+    💰 GST Rate: 5.0%
+    📏 Unit: Nos
+    📊 Usage Count: 1
+
+ 2. Food Delivery
+    📝 Description: Food delivery and takeaway services
+    🔢 SAC Code: 996331
+    📂 Subcategory: Delivery
+    🏷️  Keywords: food delivery,takeaway,home delivery,online food
+    💰 GST Rate: 5.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+ 3. Restaurant Service
+    📝 Description: Restaurant dining and food services
+    🔢 SAC Code: 996331
+    📂 Subcategory: Restaurant
+    🏷️  Keywords: restaurant,dining,food,meal,cuisine
+    💰 GST Rate: 5.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Healthcare
+============================================================
+📈 Services in this category: 9
+📂 Subcategories: Home Care, Nursing, Nutrition, Consultation, Mental Health, Dental, Therapy, Wellness
+🔢 SAC Codes: 998311, 998399, 997331
+💰 GST Rates: 5.0%, 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Dental Services
+    📝 Description: Dental examination and treatment
+    🔢 SAC Code: 998311
+    📂 Subcategory: Dental
+    🏷️  Keywords: dental,dentist,teeth,oral health,dental care
+    💰 GST Rate: 5.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Home Healthcare
+    📝 Description: Medical care services at home
+    🔢 SAC Code: 998311
+    📂 Subcategory: Home Care
+    🏷️  Keywords: home healthcare,nursing,medical care,elder care
+    💰 GST Rate: 5.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Massage Therapy
+    📝 Description: Therapeutic massage and spa services
+    🔢 SAC Code: 997331
+    📂 Subcategory: Therapy
+    🏷️  Keywords: massage,spa,therapy,relaxation,wellness
+    💰 GST Rate: 18.0%
+    📏 Unit: Session
+    📊 Usage Count: 0
+
+ 4. Medical Consultation
+    📝 Description: Doctor consultation and medical advice
+    🔢 SAC Code: 998311
+    📂 Subcategory: Consultation
+    🏷️  Keywords: medical,doctor,consultation,healthcare,medical advice
+    💰 GST Rate: 5.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Mental Health Counseling
+    📝 Description: Psychology and mental health services
+    🔢 SAC Code: 998311
+    📂 Subcategory: Mental Health
+    🏷️  Keywords: mental health,psychology,counseling,therapy,psychiatry
+    💰 GST Rate: 5.0%
+    📏 Unit: Session
+    📊 Usage Count: 0
+
+ 6. Nursing Care
+    📝 Description: Professional nursing and care services
+    🔢 SAC Code: 998311
+    📂 Subcategory: Nursing
+    🏷️  Keywords: nursing,care,patient care,home nursing,medical care
+    💰 GST Rate: 5.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 7. Nutrition Counseling
+    📝 Description: Diet planning and nutrition consultation
+    🔢 SAC Code: 998311
+    📂 Subcategory: Nutrition
+    🏷️  Keywords: nutrition,diet plan,nutritionist,health consultation
+    💰 GST Rate: 5.0%
+    📏 Unit: Session
+    📊 Usage Count: 0
+
+ 8. Physiotherapy
+    📝 Description: Physical therapy and rehabilitation
+    🔢 SAC Code: 998311
+    📂 Subcategory: Therapy
+    🏷️  Keywords: physiotherapy,physical therapy,rehabilitation,exercise therapy
+    💰 GST Rate: 5.0%
+    📏 Unit: Sessions
+    📊 Usage Count: 0
+
+ 9. Yoga Instruction
+    📝 Description: Yoga classes and wellness instruction
+    🔢 SAC Code: 998399
+    📂 Subcategory: Wellness
+    🏷️  Keywords: yoga,meditation,wellness,fitness,health
+    💰 GST Rate: 18.0%
+    📏 Unit: Class
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: It Services
+============================================================
+📈 Services in this category: 43
+📂 Subcategories: Security, Infrastructure, Integration, Infrastructure_Services, Operations, IoT, API_Services, AI, Design, Development, Technical_Services, Blockchain, Support_Services, Cloud, Support, Documentation, Database_Services, DevOps, Consulting, Training, Mobile_Development, Web_Development, Analytics, Testing
+🔢 SAC Codes: 998314
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Web Development
+    📝 Description: Custom website development and programming services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Development
+    🏷️  Keywords: website,web,development,programming,coding,html,css,javascript,react,angular,php,python,nodejs,frontend,backend
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 5
+
+ 2. WordPress Website Development
+    📝 Description: Custom WordPress website with theme customization and plugins
+    🔢 SAC Code: 998314
+    📂 Subcategory: Web_Development
+    🏷️  Keywords: wordpress,website,cms,blog,custom theme,plugins,wp
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 3
+
+ 3. AI/ML Development
+    📝 Description: Artificial Intelligence and Machine Learning solutions
+    🔢 SAC Code: 998314
+    📂 Subcategory: AI
+    🏷️  Keywords: artificial intelligence,machine learning,ai,ml,deep learning,nlp
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 4. API Development
+    📝 Description: REST API and web services development
+    🔢 SAC Code: 998314
+    📂 Subcategory: Development
+    🏷️  Keywords: api,rest,web services,integration,microservices,graphql
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. API Development & Integration
+    📝 Description: RESTful API development and third-party service integrations
+    🔢 SAC Code: 998314
+    📂 Subcategory: API_Services
+    🏷️  Keywords: api development,rest api,api integration,web services,microservices
+    💰 GST Rate: 18.0%
+    📏 Unit: APIs
+    📊 Usage Count: 0
+
+ 6. Android App Development
+    📝 Description: Native Android application development with Google Play Store deployment
+    🔢 SAC Code: 998314
+    📂 Subcategory: Mobile_Development
+    🏷️  Keywords: android,mobile app,kotlin,java,play store,native app
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+ 7. Blockchain Development
+    📝 Description: Blockchain and cryptocurrency solutions
+    🔢 SAC Code: 998314
+    📂 Subcategory: Blockchain
+    🏷️  Keywords: blockchain,cryptocurrency,smart contracts,ethereum,bitcoin,defi
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 8. CRM Development
+    📝 Description: Customer Relationship Management system development
+    🔢 SAC Code: 998314
+    📂 Subcategory: Development
+    🏷️  Keywords: crm,customer management,sales,lead tracking,customer service
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 9. Cloud Computing Services
+    📝 Description: Cloud infrastructure setup and management
+    🔢 SAC Code: 998314
+    📂 Subcategory: Cloud
+    🏷️  Keywords: cloud,aws,azure,google cloud,infrastructure,saas,paas
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+10. Cloud Migration
+    📝 Description: Cloud infrastructure migration services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Cloud
+    🏷️  Keywords: cloud,migration,aws,azure,google cloud,infrastructure,deployment
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+11. Corporate Website Development
+    📝 Description: Professional corporate website with company profile and services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Web_Development
+    🏷️  Keywords: corporate,company,business website,professional,portfolio
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+12. Cross-Platform App Development
+    📝 Description: React Native or Flutter app for both Android and iOS platforms
+    🔢 SAC Code: 998314
+    📂 Subcategory: Mobile_Development
+    🏷️  Keywords: cross platform,react native,flutter,hybrid app,multi platform
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+13. Custom Web Application Development
+    📝 Description: Bespoke web application with custom functionality and database
+    🔢 SAC Code: 998314
+    📂 Subcategory: Web_Development
+    🏷️  Keywords: web app,custom application,saas,dashboard,portal
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+14. Cybersecurity Services
+    📝 Description: Information security and cyber threat protection
+    🔢 SAC Code: 998314
+    📂 Subcategory: Security
+    🏷️  Keywords: cybersecurity,security,firewall,antivirus,protection,hacking
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+15. Data Analytics
+    📝 Description: Business intelligence and data analysis services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Analytics
+    🏷️  Keywords: data,analytics,business intelligence,reporting,dashboard,visualization
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+16. Data Analytics Services
+    📝 Description: Big data analysis and business intelligence
+    🔢 SAC Code: 998314
+    📂 Subcategory: Analytics
+    🏷️  Keywords: data analytics,business intelligence,big data,reporting,dashboard
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+17. Database Design & Development
+    📝 Description: Custom database architecture, design, and implementation
+    🔢 SAC Code: 998314
+    📂 Subcategory: Database_Services
+    🏷️  Keywords: database design,database development,sql,mysql,postgresql,mongodb
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+18. Database Development
+    📝 Description: Database design, development and optimization
+    🔢 SAC Code: 998314
+    📂 Subcategory: Development
+    🏷️  Keywords: database,mysql,postgresql,mongodb,sql,data,design,optimization
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+19. DevOps & Automation
+    📝 Description: Development operations and process automation
+    🔢 SAC Code: 998314
+    📂 Subcategory: DevOps
+    🏷️  Keywords: devops,automation,ci cd,docker,kubernetes,jenkins
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+20. DevOps Services
+    📝 Description: DevOps implementation and automation
+    🔢 SAC Code: 998314
+    📂 Subcategory: Operations
+    🏷️  Keywords: devops,automation,ci cd,deployment,docker,kubernetes,jenkins
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+21. E-commerce Development
+    📝 Description: Online store and e-commerce platform development
+    🔢 SAC Code: 998314
+    📂 Subcategory: Development
+    🏷️  Keywords: ecommerce,online store,shopping cart,payment gateway,shopify,woocommerce
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+22. E-commerce Website Development
+    📝 Description: Complete online store with payment gateway and inventory management
+    🔢 SAC Code: 998314
+    📂 Subcategory: Web_Development
+    🏷️  Keywords: ecommerce,online store,shopping cart,payment gateway,woocommerce,shopify
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+23. ERP Development
+    📝 Description: Enterprise Resource Planning system development
+    🔢 SAC Code: 998314
+    📂 Subcategory: Development
+    🏷️  Keywords: erp,enterprise,resource planning,business management,inventory
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+24. IT Consulting
+    📝 Description: Technology strategy and IT consulting services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Consulting
+    🏷️  Keywords: it consulting,technology consulting,strategy,advisory
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+25. IT Security Consulting
+    📝 Description: Cybersecurity consulting and implementation
+    🔢 SAC Code: 998314
+    📂 Subcategory: Security
+    🏷️  Keywords: security,cybersecurity,penetration testing,vulnerability,firewall,encryption
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+26. IT Support
+    📝 Description: Technical support and maintenance services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Support
+    🏷️  Keywords: support,technical,maintenance,troubleshooting,help desk,remote support
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+27. IT Training
+    📝 Description: Technology training and skill development
+    🔢 SAC Code: 998314
+    📂 Subcategory: Training
+    🏷️  Keywords: training,education,skill development,workshop,certification,technical training
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+28. IoT Solutions
+    📝 Description: Internet of Things device integration and management
+    🔢 SAC Code: 998314
+    📂 Subcategory: IoT
+    🏷️  Keywords: iot,internet of things,sensors,automation,smart devices
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+29. Landing Page Development
+    📝 Description: High-converting single page website for marketing campaigns
+    🔢 SAC Code: 998314
+    📂 Subcategory: Web_Development
+    🏷️  Keywords: landing page,single page,marketing,conversion,campaign
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+30. Machine Learning
+    📝 Description: AI and machine learning solution development
+    🔢 SAC Code: 998314
+    📂 Subcategory: AI
+    🏷️  Keywords: machine learning,ai,artificial intelligence,deep learning,neural networks,python
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+31. Mobile App Development
+    📝 Description: iOS and Android mobile application development
+    🔢 SAC Code: 998314
+    📂 Subcategory: Development
+    🏷️  Keywords: mobile,app,ios,android,react native,flutter,xamarin,mobile development
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+32. Network Setup
+    📝 Description: Computer network installation and configuration
+    🔢 SAC Code: 998314
+    📂 Subcategory: Infrastructure
+    🏷️  Keywords: network,lan,wan,wifi,router,switch,configuration
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+33. Quality Assurance
+    📝 Description: Software testing and quality assurance services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Testing
+    🏷️  Keywords: qa,testing,quality assurance,automation testing,manual testing,bug testing
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+34. Server Setup & Configuration
+    📝 Description: Web server setup, configuration, and deployment services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Infrastructure_Services
+    🏷️  Keywords: server setup,server configuration,deployment,hosting,devops
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+35. Software Development
+    📝 Description: Custom software solutions and applications
+    🔢 SAC Code: 998314
+    📂 Subcategory: Development
+    🏷️  Keywords: software,application,custom,development,programming,solution,system
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+36. Software Testing
+    📝 Description: Quality assurance and software testing services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Testing
+    🏷️  Keywords: software testing,qa,quality assurance,automation testing,manual testing
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+37. System Integration
+    📝 Description: Enterprise system integration services
+    🔢 SAC Code: 998314
+    📂 Subcategory: Integration
+    🏷️  Keywords: integration,system,enterprise,middleware,api integration,data sync
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+38. Technical Support & Troubleshooting
+    📝 Description: Ongoing technical support, bug fixes, and system troubleshooting
+    🔢 SAC Code: 998314
+    📂 Subcategory: Support_Services
+    🏷️  Keywords: technical support,troubleshooting,bug fixes,system support,help desk
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+39. Technical Writing
+    📝 Description: Documentation and technical content creation
+    🔢 SAC Code: 998314
+    📂 Subcategory: Documentation
+    🏷️  Keywords: technical writing,documentation,api docs,user manual
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+40. UI/UX Design
+    📝 Description: User interface and user experience design
+    🔢 SAC Code: 998314
+    📂 Subcategory: Design
+    🏷️  Keywords: ui,ux,user interface,user experience,design,wireframe,prototype
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+41. Website Maintenance & Updates
+    📝 Description: Ongoing website maintenance, updates, and technical support
+    🔢 SAC Code: 998314
+    📂 Subcategory: Web_Development
+    🏷️  Keywords: maintenance,updates,support,bug fixes,website care
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+42. Website Performance Optimization
+    📝 Description: Speed optimization, Core Web Vitals improvement, and performance monitoring
+    🔢 SAC Code: 998314
+    📂 Subcategory: Technical_Services
+    🏷️  Keywords: performance optimization,speed optimization,core web vitals,website speed
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+43. iOS App Development
+    📝 Description: Native iOS application development with App Store deployment
+    🔢 SAC Code: 998314
+    📂 Subcategory: Mobile_Development
+    🏷️  Keywords: ios,iphone,ipad,swift,app store,native app
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Maintenance Services
+============================================================
+📈 Services in this category: 10
+📂 Subcategories: Appliance, Carpentry, Electrical, Cleaning, Painting, AC, Plumbing
+🔢 SAC Codes: 997321, 997212
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. House Cleaning
+    📝 Description: Residential cleaning and maintenance
+    🔢 SAC Code: 997321
+    📂 Subcategory: Cleaning
+    🏷️  Keywords: cleaning,house cleaning,maid,domestic,housekeeping
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 1
+
+ 2. AC Repair & Maintenance
+    📝 Description: Air conditioner repair and servicing
+    🔢 SAC Code: 997212
+    📂 Subcategory: AC
+    🏷️  Keywords: ac repair,air conditioner,servicing,maintenance,cooling
+    💰 GST Rate: 18.0%
+    📏 Unit: Service
+    📊 Usage Count: 0
+
+ 3. Appliance Repair
+    📝 Description: Home appliance repair services
+    🔢 SAC Code: 997212
+    📂 Subcategory: Appliance
+    🏷️  Keywords: appliance repair,washing machine,refrigerator,microwave
+    💰 GST Rate: 18.0%
+    📏 Unit: Service
+    📊 Usage Count: 0
+
+ 4. Carpentry Services
+    📝 Description: Wood work and furniture repair
+    🔢 SAC Code: 997212
+    📂 Subcategory: Carpentry
+    🏷️  Keywords: carpentry,wood work,furniture,carpenter,repair
+    💰 GST Rate: 18.0%
+    📏 Unit: Service
+    📊 Usage Count: 0
+
+ 5. Carpet Cleaning
+    📝 Description: Carpet and upholstery cleaning
+    🔢 SAC Code: 997321
+    📂 Subcategory: Cleaning
+    🏷️  Keywords: carpet cleaning,upholstery,rug cleaning,fabric cleaning
+    💰 GST Rate: 18.0%
+    📏 Unit: Sq Ft
+    📊 Usage Count: 0
+
+ 6. Electrical Services
+    📝 Description: Electrical wiring and repair work
+    🔢 SAC Code: 997212
+    📂 Subcategory: Electrical
+    🏷️  Keywords: electrical,wiring,electrician,repair,installation
+    💰 GST Rate: 18.0%
+    📏 Unit: Service
+    📊 Usage Count: 0
+
+ 7. Office Cleaning
+    📝 Description: Commercial office cleaning services
+    🔢 SAC Code: 997321
+    📂 Subcategory: Cleaning
+    🏷️  Keywords: office cleaning,commercial cleaning,janitorial,workplace
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 8. Painting Services
+    📝 Description: Wall painting and home painting
+    🔢 SAC Code: 997212
+    📂 Subcategory: Painting
+    🏷️  Keywords: painting,wall painting,home painting,painter
+    💰 GST Rate: 18.0%
+    📏 Unit: Sq Ft
+    📊 Usage Count: 0
+
+ 9. Plumbing Services
+    📝 Description: Water pipe repair and plumbing work
+    🔢 SAC Code: 997212
+    📂 Subcategory: Plumbing
+    🏷️  Keywords: plumbing,pipe repair,water,drainage,plumber
+    💰 GST Rate: 18.0%
+    📏 Unit: Service
+    📊 Usage Count: 0
+
+10. Window Cleaning
+    📝 Description: Window and glass cleaning services
+    🔢 SAC Code: 997321
+    📂 Subcategory: Cleaning
+    🏷️  Keywords: window cleaning,glass cleaning,building maintenance
+    💰 GST Rate: 18.0%
+    📏 Unit: Sq Ft
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Marketing Services
+============================================================
+📈 Services in this category: 13
+📂 Subcategories: Video, PPC, Influencer, Email, Branding, SEM, Affiliate, SEO, PR, Social Media, Analytics, Digital, Content
+🔢 SAC Codes: 998399
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Affiliate Marketing
+    📝 Description: Affiliate program setup and management
+    🔢 SAC Code: 998399
+    📂 Subcategory: Affiliate
+    🏷️  Keywords: affiliate marketing,referral program,commission,partnership
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Brand Strategy
+    📝 Description: Brand development and positioning services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Branding
+    🏷️  Keywords: brand strategy,positioning,brand development,market research
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Content Marketing
+    📝 Description: Content strategy and creation services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Content
+    🏷️  Keywords: content marketing,blog,articles,content strategy,copywriting
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 4. Digital Marketing
+    📝 Description: Comprehensive digital marketing campaigns
+    🔢 SAC Code: 998399
+    📂 Subcategory: Digital
+    🏷️  Keywords: digital marketing,online marketing,campaign,strategy,branding
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Email Marketing
+    📝 Description: Email campaign design and management
+    🔢 SAC Code: 998399
+    📂 Subcategory: Email
+    🏷️  Keywords: email marketing,newsletter,campaign,automation,mailchimp
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 6. Google Ads Management
+    📝 Description: Google AdWords campaign management
+    🔢 SAC Code: 998399
+    📂 Subcategory: PPC
+    🏷️  Keywords: google ads,adwords,ppc,pay per click,advertising,campaign management
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 7. Influencer Marketing
+    📝 Description: Influencer outreach and campaign management
+    🔢 SAC Code: 998399
+    📂 Subcategory: Influencer
+    🏷️  Keywords: influencer,marketing,outreach,collaboration,brand ambassador
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 8. Marketing Analytics
+    📝 Description: Marketing performance analysis and reporting
+    🔢 SAC Code: 998399
+    📂 Subcategory: Analytics
+    🏷️  Keywords: marketing analytics,roi,performance,reporting,google analytics
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 9. Public Relations
+    📝 Description: PR services and media relations
+    🔢 SAC Code: 998399
+    📂 Subcategory: PR
+    🏷️  Keywords: public relations,pr,media relations,press release,publicity
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+10. SEO Services
+    📝 Description: Search engine optimization services
+    🔢 SAC Code: 998399
+    📂 Subcategory: SEO
+    🏷️  Keywords: seo,search engine optimization,ranking,keywords,google,organic traffic
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+11. Search Engine Marketing
+    📝 Description: SEM, Google Ads and paid search campaigns
+    🔢 SAC Code: 998399
+    📂 Subcategory: SEM
+    🏷️  Keywords: sem,google ads,paid search,ppc,adwords,search marketing
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+12. Social Media Management
+    📝 Description: Complete social media account management
+    🔢 SAC Code: 998399
+    📂 Subcategory: Social Media
+    🏷️  Keywords: social media management,facebook,instagram,twitter,linkedin,content
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+13. Video Marketing
+    📝 Description: Video content creation and promotion
+    🔢 SAC Code: 998399
+    📂 Subcategory: Video
+    🏷️  Keywords: video marketing,youtube,video content,promotional videos,video ads
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Pet Services
+============================================================
+📈 Services in this category: 5
+📂 Subcategories: Training, Grooming, Medical, Boarding, Veterinary
+🔢 SAC Codes: 998399
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Pet Boarding
+    📝 Description: Pet care and boarding services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Boarding
+    🏷️  Keywords: pet boarding,pet care,dog boarding,animal care
+    💰 GST Rate: 18.0%
+    📏 Unit: Day
+    📊 Usage Count: 1
+
+ 2. Pet Grooming
+    📝 Description: Pet grooming and care services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Grooming
+    🏷️  Keywords: pet grooming,dog,cat,animal care,pet care
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+ 3. Pet Training
+    📝 Description: Pet behavior training and obedience
+    🔢 SAC Code: 998399
+    📂 Subcategory: Training
+    🏷️  Keywords: pet training,dog training,obedience,behavior
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 4. Veterinary Service
+    📝 Description: Animal health and veterinary care
+    🔢 SAC Code: 998399
+    📂 Subcategory: Veterinary
+    🏷️  Keywords: veterinary,vet,animal health,pet health
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Veterinary Services
+    📝 Description: Animal health and medical care
+    🔢 SAC Code: 998399
+    📂 Subcategory: Medical
+    🏷️  Keywords: veterinary,vet,animal health,pet health,medical
+    💰 GST Rate: 18.0%
+    📏 Unit: Consultation
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Photography
+============================================================
+📈 Services in this category: 3
+📂 Subcategories: Product, Portrait, Wedding
+🔢 SAC Codes: 998399
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Portrait Photography
+    📝 Description: Personal and family portrait photography
+    🔢 SAC Code: 998399
+    📂 Subcategory: Portrait
+    🏷️  Keywords: portrait,family photo,personal,studio photography
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Product Photography
+    📝 Description: Commercial product photography
+    🔢 SAC Code: 998399
+    📂 Subcategory: Product
+    🏷️  Keywords: product photography,commercial,e-commerce,catalog
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Wedding Photography
+    📝 Description: Wedding ceremony photography services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Wedding
+    🏷️  Keywords: wedding photography,marriage,ceremony,bridal,photographer
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Professional Services
+============================================================
+📈 Services in this category: 18
+📂 Subcategories: Finance, Tax, Research, Data, Insurance, Management, Legal, Training, Investment, IP, Registration, Translation, Admin, Consulting, HR
+🔢 SAC Codes: 998399, 998313
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Business Consulting
+    📝 Description: Strategic business consulting and advisory
+    🔢 SAC Code: 998399
+    📂 Subcategory: Consulting
+    🏷️  Keywords: business consulting,strategy,advisory,management consulting,business plan
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Business Registration
+    📝 Description: Company incorporation and registration services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Registration
+    🏷️  Keywords: business registration,company incorporation,startup,legal entity
+    💰 GST Rate: 18.0%
+    📏 Unit: Application
+    📊 Usage Count: 0
+
+ 3. Data Entry
+    📝 Description: Data entry and processing services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Data
+    🏷️  Keywords: data entry,data processing,typing,data conversion,digitization
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 4. Financial Consulting
+    📝 Description: Financial planning and advisory services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Finance
+    🏷️  Keywords: financial consulting,planning,investment,finance,accounting,bookkeeping
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. HR Consulting
+    📝 Description: Human resources consulting and recruitment
+    🔢 SAC Code: 998399
+    📂 Subcategory: HR
+    🏷️  Keywords: hr,human resources,recruitment,hiring,employee,consulting
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 6. Insurance Services
+    📝 Description: Insurance consultation and policy services
+    🔢 SAC Code: 998313
+    📂 Subcategory: Insurance
+    🏷️  Keywords: insurance,policy,life insurance,health insurance,general insurance
+    💰 GST Rate: 18.0%
+    📏 Unit: Policy
+    📊 Usage Count: 0
+
+ 7. Investment Advisory
+    📝 Description: Financial investment and portfolio advisory
+    🔢 SAC Code: 998313
+    📂 Subcategory: Investment
+    🏷️  Keywords: investment advisory,portfolio,financial planning,wealth management
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 8. Legal Documentation
+    📝 Description: Legal document preparation and review
+    🔢 SAC Code: 998399
+    📂 Subcategory: Legal
+    🏷️  Keywords: legal documentation,contracts,agreements,legal review
+    💰 GST Rate: 18.0%
+    📏 Unit: Document
+    📊 Usage Count: 0
+
+ 9. Legal Services
+    📝 Description: Legal consultation and documentation
+    🔢 SAC Code: 998399
+    📂 Subcategory: Legal
+    🏷️  Keywords: legal,lawyer,attorney,legal advice,documentation,contracts
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+10. Loan Services
+    📝 Description: Loan processing and financial assistance
+    🔢 SAC Code: 998313
+    📂 Subcategory: Finance
+    🏷️  Keywords: loan,home loan,personal loan,business loan,finance
+    💰 GST Rate: 18.0%
+    📏 Unit: Application
+    📊 Usage Count: 0
+
+11. Market Research
+    📝 Description: Market analysis and research services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Research
+    🏷️  Keywords: market research,analysis,survey,consumer research,market study
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+12. Patent Services
+    📝 Description: Patent filing and intellectual property services
+    🔢 SAC Code: 998399
+    📂 Subcategory: IP
+    🏷️  Keywords: patent,intellectual property,trademark,copyright,ip
+    💰 GST Rate: 18.0%
+    📏 Unit: Application
+    📊 Usage Count: 0
+
+13. Project Management
+    📝 Description: Project planning and management services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Management
+    🏷️  Keywords: project management,planning,coordination,project execution,pmp
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+14. Recruitment Services
+    📝 Description: Talent acquisition and placement services
+    🔢 SAC Code: 998399
+    📂 Subcategory: HR
+    🏷️  Keywords: recruitment,hiring,talent acquisition,job placement,staffing
+    💰 GST Rate: 18.0%
+    📏 Unit: Position
+    📊 Usage Count: 0
+
+15. Tax Consultation
+    📝 Description: Tax planning and compliance services
+    🔢 SAC Code: 998313
+    📂 Subcategory: Tax
+    🏷️  Keywords: tax consultation,tax planning,tax filing,compliance
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+16. Training & Development
+    📝 Description: Corporate training and skill development
+    🔢 SAC Code: 998399
+    📂 Subcategory: Training
+    🏷️  Keywords: training,development,corporate training,workshop,skill development
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+17. Translation Services
+    📝 Description: Document and content translation
+    🔢 SAC Code: 998399
+    📂 Subcategory: Translation
+    🏷️  Keywords: translation,language,document translation,interpretation,localization
+    💰 GST Rate: 18.0%
+    📏 Unit: Words
+    📊 Usage Count: 0
+
+18. Virtual Assistant
+    📝 Description: Virtual administrative assistance services
+    🔢 SAC Code: 998399
+    📂 Subcategory: Admin
+    🏷️  Keywords: virtual assistant,admin,administrative,support,remote assistance
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Real Estate
+============================================================
+📈 Services in this category: 6
+📂 Subcategories: Brokerage, Valuation, Construction, Management, Rental
+🔢 SAC Codes: 997211, 995411
+💰 GST Rates: 0.0%, 5.0%, 12.0%, 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Construction Services
+    📝 Description: Building construction and contracting
+    🔢 SAC Code: 995411
+    📂 Subcategory: Construction
+    🏷️  Keywords: construction,building,contractor,civil work
+    💰 GST Rate: 12.0%
+    📏 Unit: Sq Ft
+    📊 Usage Count: 0
+
+ 2. Property Management
+    📝 Description: Real estate property management services
+    🔢 SAC Code: 997211
+    📂 Subcategory: Management
+    🏷️  Keywords: property management,real estate,rental,property
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Property Rental
+    📝 Description: Residential and commercial property rental
+    🔢 SAC Code: 997211
+    📂 Subcategory: Rental
+    🏷️  Keywords: property rental,house rent,office rent,residential
+    💰 GST Rate: 0.0%
+    📏 Unit: Month
+    📊 Usage Count: 0
+
+ 4. Property Valuation
+    📝 Description: Property assessment and valuation services
+    🔢 SAC Code: 997211
+    📂 Subcategory: Valuation
+    🏷️  Keywords: property valuation,assessment,appraisal,real estate
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Real Estate Broker
+    📝 Description: Property buying and selling brokerage
+    🔢 SAC Code: 997211
+    📂 Subcategory: Brokerage
+    🏷️  Keywords: real estate,broker,property,buying,selling
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 6. Real Estate Brokerage
+    📝 Description: Property buying and selling services
+    🔢 SAC Code: 997211
+    📂 Subcategory: Brokerage
+    🏷️  Keywords: real estate,property broker,buying,selling,agent
+    💰 GST Rate: 5.0%
+    📏 Unit: Transaction
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Security Services
+============================================================
+📈 Services in this category: 5
+📂 Subcategories: CCTV, Guard, Physical, Alarm, Home
+🔢 SAC Codes: 997311
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Alarm System
+    📝 Description: Security alarm system installation
+    🔢 SAC Code: 997311
+    📂 Subcategory: Alarm
+    🏷️  Keywords: alarm,security system,burglar alarm,fire alarm
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+ 2. CCTV Installation
+    📝 Description: CCTV camera installation and monitoring
+    🔢 SAC Code: 997311
+    📂 Subcategory: CCTV
+    🏷️  Keywords: cctv,camera,surveillance,monitoring,security system
+    💰 GST Rate: 18.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+ 3. Home Security Systems
+    📝 Description: Residential security system installation
+    🔢 SAC Code: 997311
+    📂 Subcategory: Home
+    🏷️  Keywords: home security,alarm system,residential security
+    💰 GST Rate: 18.0%
+    📏 Unit: Installation
+    📊 Usage Count: 0
+
+ 4. Security Guard
+    📝 Description: Physical security guard services
+    🔢 SAC Code: 997311
+    📂 Subcategory: Physical
+    🏷️  Keywords: security,guard,protection,safety,surveillance
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Security Guard Services
+    📝 Description: Physical security and guard services
+    🔢 SAC Code: 997311
+    📂 Subcategory: Guard
+    🏷️  Keywords: security guard,protection,safety,surveillance
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Technical Services
+============================================================
+📈 Services in this category: 5
+📂 Subcategories: Maintenance, Repair
+🔢 SAC Codes: 997212
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Computer Repair
+    📝 Description: Computer hardware repair and maintenance
+    🔢 SAC Code: 997212
+    📂 Subcategory: Repair
+    🏷️  Keywords: computer repair,hardware,maintenance,laptop repair,desktop repair
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 2. Mobile Repair
+    📝 Description: Smartphone and tablet repair services
+    🔢 SAC Code: 997212
+    📂 Subcategory: Repair
+    🏷️  Keywords: mobile repair,smartphone repair,tablet repair,screen replacement
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 3. Network Maintenance
+    📝 Description: Network infrastructure maintenance
+    🔢 SAC Code: 997212
+    📂 Subcategory: Maintenance
+    🏷️  Keywords: network maintenance,infrastructure,router,switch,wifi
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 4. Printer Repair
+    📝 Description: Printer and scanner repair services
+    🔢 SAC Code: 997212
+    📂 Subcategory: Repair
+    🏷️  Keywords: printer repair,scanner repair,office equipment,printing
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 5. Server Maintenance
+    📝 Description: Server hardware maintenance and support
+    🔢 SAC Code: 997212
+    📂 Subcategory: Maintenance
+    🏷️  Keywords: server maintenance,hardware,server support,infrastructure
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Telecommunications
+============================================================
+📈 Services in this category: 3
+📂 Subcategories: Internet, Installation, Phone
+🔢 SAC Codes: 998414
+💰 GST Rates: 18.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Internet Service
+    📝 Description: Internet connectivity and broadband services
+    🔢 SAC Code: 998414
+    📂 Subcategory: Internet
+    🏷️  Keywords: internet,broadband,wifi,connectivity,isp
+    💰 GST Rate: 18.0%
+    📏 Unit: Months
+    📊 Usage Count: 0
+
+ 2. Phone Service
+    📝 Description: Telephone and communication services
+    🔢 SAC Code: 998414
+    📂 Subcategory: Phone
+    🏷️  Keywords: phone,telephone,communication,mobile,landline
+    💰 GST Rate: 18.0%
+    📏 Unit: Months
+    📊 Usage Count: 0
+
+ 3. Telecom Installation
+    📝 Description: Telecommunications equipment installation
+    🔢 SAC Code: 998414
+    📂 Subcategory: Installation
+    🏷️  Keywords: telecom,installation,phone,internet,network
+    💰 GST Rate: 18.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+
+============================================================
+🏷️  CATEGORY: Transportation
+============================================================
+📈 Services in this category: 8
+📂 Subcategories: Rental, Taxi, Moving, Delivery, Logistics
+🔢 SAC Codes: 996511
+💰 GST Rates: 5.0%
+
+📋 SERVICES:
+----------------------------------------
+ 1. Car Rental
+    📝 Description: Vehicle rental and leasing services
+    🔢 SAC Code: 996511
+    📂 Subcategory: Rental
+    🏷️  Keywords: car rental,vehicle rental,self drive,lease
+    💰 GST Rate: 5.0%
+    📏 Unit: Day
+    📊 Usage Count: 0
+
+ 2. Delivery Service
+    📝 Description: Package and goods delivery services
+    🔢 SAC Code: 996511
+    📂 Subcategory: Delivery
+    🏷️  Keywords: delivery,courier,shipping,logistics,package
+    💰 GST Rate: 5.0%
+    📏 Unit: Nos
+    📊 Usage Count: 0
+
+ 3. Delivery Services
+    📝 Description: Package delivery and courier services
+    🔢 SAC Code: 996511
+    📂 Subcategory: Delivery
+    🏷️  Keywords: delivery,courier,package,shipping,logistics
+    💰 GST Rate: 5.0%
+    📏 Unit: Delivery
+    📊 Usage Count: 0
+
+ 4. Logistics Services
+    📝 Description: Supply chain and logistics management
+    🔢 SAC Code: 996511
+    📂 Subcategory: Logistics
+    🏷️  Keywords: logistics,supply chain,warehousing,distribution
+    💰 GST Rate: 5.0%
+    📏 Unit: Shipment
+    📊 Usage Count: 0
+
+ 5. Moving Service
+    📝 Description: Household and office relocation services
+    🔢 SAC Code: 996511
+    📂 Subcategory: Moving
+    🏷️  Keywords: moving,relocation,shifting,packing,transportation
+    💰 GST Rate: 5.0%
+    📏 Unit: Hours
+    📊 Usage Count: 0
+
+ 6. Moving Services
+    📝 Description: Household and office relocation
+    🔢 SAC Code: 996511
+    📂 Subcategory: Moving
+    🏷️  Keywords: moving,relocation,packers,movers,shifting
+    💰 GST Rate: 5.0%
+    📏 Unit: Move
+    📊 Usage Count: 0
+
+ 7. Taxi & Cab Services
+    📝 Description: Local transportation and taxi services
+    🔢 SAC Code: 996511
+    📂 Subcategory: Taxi
+    🏷️  Keywords: taxi,cab,transport,uber,ola,ride
+    💰 GST Rate: 5.0%
+    📏 Unit: Trip
+    📊 Usage Count: 0
+
+ 8. Taxi Service
+    📝 Description: Taxi and cab transportation services
+    🔢 SAC Code: 996511
+    📂 Subcategory: Taxi
+    🏷️  Keywords: taxi,cab,transport,travel,ride
+    💰 GST Rate: 5.0%
+    📏 Unit: Km
+    📊 Usage Count: 0
+
+
+================================================================================
+📊 SUMMARY STATISTICS
+================================================================================
+Categories by size (largest first):
+  • It Services: 43 services
+  • Professional Services: 18 services
+  • Creative Services: 17 services
+  • Marketing Services: 13 services
+  • Maintenance Services: 10 services
+  • Healthcare: 9 services
+  • Beauty Services: 8 services
+  • Event Services: 8 services
+  • Transportation: 8 services
+  • Education: 7 services
+  • Real Estate: 6 services
+  • Construction: 5 services
+  • Pet Services: 5 services
+  • Security Services: 5 services
+  • Technical Services: 5 services
+  • Digital Marketing: 4 services
+  • Financial Services: 4 services
+  • Agriculture: 3 services
+  • Automotive: 3 services
+  • Design Services: 3 services
+  • Entertainment: 3 services
+  • Fitness: 3 services
+  • Food Services: 3 services
+  • Photography: 3 services
+  • Telecommunications: 3 services
+  • Consulting Services: 2 services
+
+🔥 TOP 10 MOST USED SERVICES:
+   1. Web Development (used 5 times)
+   2. WordPress Website Development (used 3 times)
+   3. Car Wash (used 3 times)
+   4. Web Design (used 1 times)
+   5. House Cleaning (used 1 times)
+   6. Catering Service (used 1 times)
+   7. Pet Boarding (used 1 times)
+   8. AI/ML Development (used 0 times)
+   9. API Development (used 0 times)
+  10. API Development & Integration (used 0 times)
+
+🔢 SAC CODE DISTRIBUTION:
+  • 998399: 66 services
+  • 998314: 48 services
+  • 997212: 14 services
+  • 997331: 9 services
+  • 998313: 8 services
+  • 996511: 8 services
+  • 998311: 7 services
+  • 998321: 7 services
+  • 995411: 6 services
+  • 997311: 5 services
+  • 997211: 5 services
+  • 998315: 4 services
+  • 997321: 4 services
+  • 996331: 4 services
+  • 998211: 3 services
+  • 998414: 3 services
+
+💰 GST RATE DISTRIBUTION:
+  • 18.0%: 164 services
+  • 5.0%: 20 services
+  • 12.0%: 9 services
+  • 0.0%: 8 services

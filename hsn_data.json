@@ -1,0 +1,374 @@
+[
+  {
+    "code": "8471",
+    "desc": "Computers, Laptops & Tablets",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8528",
+    "desc": "Computer Monitors, TVs & Projectors",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8517",
+    "desc": "Mobile Phones & Smartphones",
+    "gst": 12.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8518",
+    "desc": "Speakers, Microphones & Audio Equipment",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8523",
+    "desc": "USB Drives, Memory Cards & Storage Devices",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8544",
+    "desc": "Computer Cables, USB Cables & Wires",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8471",
+    "desc": "Computer Keyboards & Mouse",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8525",
+    "desc": "Webcams & Digital Cameras",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "4802",
+    "desc": "Office Paper, A4 Paper & Printing Paper",
+    "gst": 12.0,
+    "type": "HSN"
+  },
+  {
+    "code": "4820",
+    "desc": "Notebooks, Diaries & Writing Pads",
+    "gst": 12.0,
+    "type": "HSN"
+  },
+  {
+    "code": "9608",
+    "desc": "Pens, Pencils & Markers",
+    "gst": 12.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8443",
+    "desc": "Printers, Photocopiers & Scanners",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "3926",
+    "desc": "Office Files, Folders & Storage",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "9403",
+    "desc": "Office Furniture, Desks & Chairs",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "6205",
+    "desc": "Men's Shirts & T-Shirts",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "6204",
+    "desc": "Women's Dresses, Tops & Suits",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "6203",
+    "desc": "Men's Pants, Jeans & Trousers",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "6404",
+    "desc": "Shoes, Sandals & Footwear",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "5007",
+    "desc": "Sarees, Silk Fabrics",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "6302",
+    "desc": "Bed Sheets, Towels & Home Textiles",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "1006",
+    "desc": "Rice - Basmati, Non-Basmati",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "1001",
+    "desc": "Wheat, Wheat Flour",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "0713",
+    "desc": "Pulses, Lentils, Dal",
+    "gst": 0.0,
+    "type": "HSN"
+  },
+  {
+    "code": "1701",
+    "desc": "Sugar, Jaggery",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "1511",
+    "desc": "Cooking Oil, Edible Oil",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "0901",
+    "desc": "Coffee, Coffee Beans",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "0902",
+    "desc": "Tea, Tea Leaves",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "2202",
+    "desc": "Soft Drinks, Juices",
+    "gst": 12.0,
+    "type": "HSN"
+  },
+  {
+    "code": "3304",
+    "desc": "Makeup, Cosmetics & Beauty Products",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "3305",
+    "desc": "Shampoo, Hair Care Products",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "3401",
+    "desc": "Soap, Body Wash & Cleaners",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "3307",
+    "desc": "Perfume, Deodorant & Fragrances",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "9603",
+    "desc": "Toothbrush, Hair Brush",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8703",
+    "desc": "Cars, Passenger Vehicles",
+    "gst": 28.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8711",
+    "desc": "Motorcycles, Scooters & Bikes",
+    "gst": 28.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8708",
+    "desc": "Car Parts, Auto Spare Parts",
+    "gst": 28.0,
+    "type": "HSN"
+  },
+  {
+    "code": "4011",
+    "desc": "Car Tyres, Bike Tyres",
+    "gst": 28.0,
+    "type": "HSN"
+  },
+  {
+    "code": "2710",
+    "desc": "Petrol, Diesel, Motor Oil",
+    "gst": 28.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8418",
+    "desc": "Refrigerators, Freezers",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8415",
+    "desc": "Air Conditioners, ACs",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8450",
+    "desc": "Washing Machines",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8516",
+    "desc": "Electric Heaters, Geysers, Irons",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8509",
+    "desc": "Mixer Grinder, Food Processors",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "7323",
+    "desc": "Kitchen Utensils, Cookware",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "4901",
+    "desc": "Books, Textbooks, Novels",
+    "gst": 0.0,
+    "type": "HSN"
+  },
+  {
+    "code": "4902",
+    "desc": "Newspapers, Magazines",
+    "gst": 0.0,
+    "type": "HSN"
+  },
+  {
+    "code": "9504",
+    "desc": "Games, Toys, Sports Equipment",
+    "gst": 12.0,
+    "type": "HSN"
+  },
+  {
+    "code": "2523",
+    "desc": "Cement",
+    "gst": 28.0,
+    "type": "HSN"
+  },
+  {
+    "code": "7308",
+    "desc": "Steel, Iron Rods, Metal Sheets",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "6810",
+    "desc": "Bricks, Building Blocks",
+    "gst": 5.0,
+    "type": "HSN"
+  },
+  {
+    "code": "3208",
+    "desc": "Paint, Wall Paint, Emulsion",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "8201",
+    "desc": "Tools, Screwdriver, Hammer",
+    "gst": 18.0,
+    "type": "HSN"
+  },
+  {
+    "code": "7113",
+    "desc": "Gold Jewelry, Silver Jewelry",
+    "gst": 3.0,
+    "type": "HSN"
+  },
+  {
+    "code": "7108",
+    "desc": "Gold, Silver (precious metals)",
+    "gst": 3.0,
+    "type": "HSN"
+  },
+  {
+    "code": "3004",
+    "desc": "Medicines, Tablets, Drugs",
+    "gst": 12.0,
+    "type": "HSN"
+  },
+  {
+    "code": "9018",
+    "desc": "Medical Equipment, Instruments",
+    "gst": 12.0,
+    "type": "HSN"
+  },
+  {
+    "code": "3005",
+    "desc": "Bandages, Medical Dressings",
+    "gst": 12.0,
+    "type": "HSN"
+  },
+  {
+    "code": "998314",
+    "desc": "IT Services, Software Development",
+    "gst": 18.0,
+    "type": "SAC"
+  },
+  {
+    "code": "998399",
+    "desc": "Business Support Services",
+    "gst": 18.0,
+    "type": "SAC"
+  },
+  {
+    "code": "997212",
+    "desc": "Repair Services",
+    "gst": 18.0,
+    "type": "SAC"
+  },
+  {
+    "code": "998313",
+    "desc": "Accounting, Audit Services",
+    "gst": 18.0,
+    "type": "SAC"
+  },
+  {
+    "code": "996331",
+    "desc": "Food & Catering Services",
+    "gst": 5.0,
+    "type": "SAC"
+  }
+]

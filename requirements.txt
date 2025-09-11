@@ -1,0 +1,18 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+python-dotenv==1.0.0
+email-validator==2.1.0
+python-jose[cryptography]==3.3.0
+httpx==0.25.2
+reportlab==4.0.7
+PyPDF2==3.0.1
+psycopg2-binary==2.9.9
+alembic==1.13.1
+# Modern PDF generation dependencies
+weasyprint==62.3
+jinja2==3.1.2
+# Optional: For better font support
+fonttools==4.47.0
+# Alternative: Playwright for browser-based PDF generation
+playwright==1.40.0

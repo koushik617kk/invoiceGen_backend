@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice {{ invoice.invoice_number }}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            font-size: 12px;
+            line-height: 1.4;
+            color: #374151;
+            background: white;
+        }
+
+        .invoice-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        .invoice-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        .company-info {
+            flex: 1;
+        }
+
+        .company-logo {
+            max-width: 120px;
+            max-height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .company-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: {{ business_profile.primary_color if business_profile and business_profile.primary_color else '#1e40af' }};
+            margin-bottom: 5px;
+        }
+
+        .invoice-title {
+            text-align: right;
+        }
+
+        .invoice-title h1 {
+            font-size: 28px;
+            color: {{ business_profile.primary_color if business_profile and business_profile.primary_color else '#1e40af' }};
+            margin-bottom: 5px;
+        }
+
+        .invoice-subtitle {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        /* GST Info */
+        .gst-info {
+            background: #f8fafc;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            font-size: 11px;
+            color: #374151;
+        }
+
+        /* Party Information */
+        .party-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .party-info {
+            flex: 1;
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        .party-title {
+            font-weight: bold;
+            color: {{ business_profile.primary_color if business_profile and business_profile.primary_color else '#1e40af' }};
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .party-details {
+            font-size: 11px;
+            line-height: 1.5;
+        }
+
+        .party-details p {
+            margin-bottom: 3px;
+        }
+
+        /* Invoice Meta */
+        .invoice-meta {
+            background: #f8fafc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .meta-item {
+            font-size: 11px;
+        }
+
+        .meta-label {
+            font-weight: bold;
+            color: #374151;
+        }
+
+        /* Items Table */
+        .items-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            font-size: 9px;
+        }
+
+        .items-table th {
+            background: {{ business_profile.primary_color if business_profile and business_profile.primary_color else '#1e40af' }};
+            color: white;
+            padding: 12px 8px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .items-table td {
+            padding: 8px;
+            border-bottom: 1px solid #e5e7eb;
+            vertical-align: top;
+        }
+
+        .items-table tr:nth-child(even) {
+            background: #f9fafb;
+        }
+
+        .items-table .text-right {
+            text-align: right;
+        }
+
+        .items-table .text-center {
+            text-align: center;
+        }
+
+        /* Totals Section - Horizontal Compact Design */
+        .totals-section {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .totals-container {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .totals-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px 0;
+            font-size: 13px;
+        }
+
+        .totals-label {
+            font-weight: 500;
+            color: #374151;
+            text-align: right;
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .totals-value {
+            font-weight: 500;
+            color: #374151;
+            text-align: right;
+            min-width: 100px;
+        }
+
+        .totals-final {
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            border-top: 1px solid #e5e7eb;
+            padding-top: 6px;
+            margin-top: 4px;
+        }
+
+        .totals-gst {
+            color: #374151;
+        }
+
+        .totals-discount {
+            color: #374151;
+        }
+
+        .totals-words {
+            font-size: 12px;
+            color: #6b7280;
+            font-style: italic;
+        }
+
+
+        /* Payment Details */
+        .payment-section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: {{ business_profile.primary_color if business_profile and business_profile.primary_color else '#1e40af' }};
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .payment-details {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+
+        .payment-row {
+            display: flex;
+            margin-bottom: 5px;
+        }
+
+        .payment-label {
+            font-weight: bold;
+            color: #6b7280;
+            width: 120px;
+        }
+
+        .payment-value {
+            color: #374151;
+        }
+
+        /* Terms and Conditions */
+        .terms-section {
+            margin-bottom: 20px;
+        }
+
+        .terms-content {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 4px;
+            font-size: 11px;
+            line-height: 1.5;
+        }
+
+        /* Signature */
+        .signature-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .signature-text {
+            font-size: 11px;
+            font-weight: bold;
+            color: #374151;
+        }
+
+        .signature-image {
+            max-width: 120px;
+            max-height: 60px;
+        }
+
+        /* Utility Classes */
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .font-bold { font-weight: bold; }
+        .text-sm { font-size: 10px; }
+        .text-xs { font-size: 9px; }
+        .mb-2 { margin-bottom: 8px; }
+        .mb-4 { margin-bottom: 16px; }
+
+        /* Print Styles */
+        @media print {
+            body { margin: 0; }
+            .invoice-container { padding: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <!-- Header -->
+        <div class="invoice-header">
+            <div class="company-info">
+                {% if business_profile and business_profile.logo_path %}
+                <img src="{{ business_profile.logo_path }}" alt="Company Logo" class="company-logo">
+                {% endif %}
+                <div class="company-name">
+                    {{ business_profile.business_name if business_profile and business_profile.business_name else 'invoiceGen' }}
+                </div>
+            </div>
+            <div class="invoice-title">
+                <h1>Tax Invoice</h1>
+                <div class="invoice-subtitle">
+                    Place of Supply: {{ invoice.place_of_supply or "Not specified" }}
+                </div>
+            </div>
+        </div>
+
+        <!-- GST Information -->
+        {% if business_profile and (business_profile.pan or invoice.financial_year) %}
+        <div class="gst-info">
+            {% if business_profile.pan %}<strong>PAN:</strong> {{ business_profile.pan }}{% endif %}
+            {% if invoice.financial_year %}<strong>Financial Year:</strong> {{ invoice.financial_year }}{% endif %}
+        </div>
+        {% endif %}
+
+        <!-- Party Information -->
+        <div class="party-section">
+            <div class="party-info">
+                <div class="party-title">From:</div>
+                <div class="party-details">
+                    <p><strong>{{ business_profile.business_name if business_profile and business_profile.business_name else '' }}</strong></p>
+                    {% if business_profile and business_profile.gstin %}
+                    <p>GSTIN: {{ business_profile.gstin }}</p>
+                    {% endif %}
+                    {% if business_profile and business_profile.pan %}
+                    <p>PAN: {{ business_profile.pan }}</p>
+                    {% endif %}
+                    {% if business_profile and business_profile.address %}
+                    <p>{{ business_profile.address }}</p>
+                    {% endif %}
+                    {% if business_profile and business_profile.phone %}
+                    <p>Phone: {{ business_profile.phone }}</p>
+                    {% endif %}
+                    {% if business_profile and business_profile.email %}
+                    <p>Email: {{ business_profile.email }}</p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="party-info">
+                <div class="party-title">Bill To:</div>
+                <div class="party-details">
+                    <p><strong>{{ invoice.buyer.name or '' }}</strong></p>
+                    {% if invoice.buyer.gstin %}
+                    <p>GSTIN: {{ invoice.buyer.gstin }}</p>
+                    {% endif %}
+                    {% if invoice.buyer.address %}
+                    <p>{{ invoice.buyer.address }}</p>
+                    {% endif %}
+                    {% if invoice.buyer.phone %}
+                    <p>Phone: {{ invoice.buyer.phone }}</p>
+                    {% endif %}
+                    {% if invoice.buyer.email %}
+                    <p>Email: {{ invoice.buyer.email }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <!-- Invoice Meta -->
+        <div class="invoice-meta">
+            <div class="meta-item">
+                <span class="meta-label">Invoice No:</span> {{ invoice.invoice_number }}
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Date:</span> {{ invoice.date.strftime("%d/%m/%Y") }}
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Due Date:</span> {{ invoice.due_date.strftime("%d/%m/%Y") if invoice.due_date else "Not specified" }}
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Financial Year:</span> {{ invoice.financial_year }}
+            </div>
+        </div>
+
+        <!-- Items Table -->
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>HSN/SAC</th>
+                    <th>Unit</th>
+                    <th class="text-center">Qty</th>
+                    <th class="text-right">Rate</th>
+                    <th class="text-right">Discount</th>
+                    <th class="text-right">Taxable Value</th>
+                    <th class="text-center">GST %</th>
+                    <th class="text-center">CGST</th>
+                    <th class="text-center">SGST</th>
+                    <th class="text-center">IGST</th>
+                    <th class="text-right">Line Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in invoice.items %}
+                {% set item_tax_amount = (item.taxable_value or 0) * (item.gst_rate or 0) / 100 %}
+                {% set is_intrastate = invoice.seller_state_code == invoice.buyer.state_code if invoice.seller_state_code and invoice.buyer.state_code else True %}
+                <tr>
+                    <td>{{ item.description or '' }}</td>
+                    <td>{{ item.hsn_code or item.sac_code or '' }}</td>
+                    <td>{{ item.unit or 'Nos' }}</td>
+                    <td class="text-center">{{ "%.0f"|format(item.quantity) if item.quantity else '0' }}</td>
+                    <td class="text-right">Rs.{{ "%.2f"|format(item.rate) if item.rate else '0.00' }}</td>
+                    <td class="text-right">
+                        {% if item.discount_percent or item.discount_amount %}
+                            {% if item.discount_percent %}{{ "%.0f"|format(item.discount_percent) }}%{% endif %}
+                            {% if item.discount_amount %} / Rs.{{ "%.2f"|format(item.discount_amount) }}{% endif %}
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td class="text-right">Rs.{{ "%.2f"|format(item.taxable_value) if item.taxable_value else '0.00' }}</td>
+                    <td class="text-center">{{ "%.0f"|format(item.gst_rate) if item.gst_rate else '0' }}%</td>
+                    <td class="text-center">
+                        {% if is_intrastate and item.gst_rate and item.gst_rate > 0 %}
+                            {{ "%.1f"|format(item.gst_rate / 2) }}%
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td class="text-center">
+                        {% if is_intrastate and item.gst_rate and item.gst_rate > 0 %}
+                            {{ "%.1f"|format(item.gst_rate / 2) }}%
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td class="text-center">
+                        {% if not is_intrastate and item.gst_rate and item.gst_rate > 0 %}
+                            {{ "%.1f"|format(item.gst_rate) }}%
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td class="text-right">Rs.{{ "%.2f"|format((item.taxable_value or 0) + item_tax_amount) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- GST Note -->
+        <div style="font-size: 8px; color: #6b7280; margin-top: 5px; text-align: right;">
+            <em>Note: CGST & SGST percentages shown for intrastate transactions. IGST percentage shown for interstate transactions.</em>
+        </div>
+
+        <!-- Totals -->
+        <div class="totals-section">
+            <hr style="width: 100%; border: none; border-top: 1px solid #e5e7eb; margin: 0 0 8px 0;">
+            <div class="totals-container">
+                <div class="totals-row">
+                    <span class="totals-label">Subtotal:</span>
+                    <span class="totals-value">Rs.{{ "%.2f"|format(invoice.subtotal) }}</span>
+                </div>
+                {% if invoice.round_off and invoice.round_off != 0 %}
+                <div class="totals-row">
+                    <span class="totals-label">Round Off:</span>
+                    <span class="totals-value">Rs.{{ "%.2f"|format(invoice.round_off) }}</span>
+                </div>
+                {% endif %}
+                <div class="totals-row totals-final">
+                    <span class="totals-label">Total Amount:</span>
+                    <span class="totals-value">Rs.{{ "%.2f"|format(invoice.total) if invoice.total else '0.00' }}</span>
+                </div>
+                {% if invoice.total_in_words %}
+                <div class="totals-row totals-words">
+                    <span class="totals-label">Total Amount (in words):</span>
+                    <span class="totals-value">{{ invoice.total_in_words }}</span>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Payment Details -->
+        {% if business_profile and (business_profile.bank_account_name or business_profile.bank_name or business_profile.bank_account_number or business_profile.bank_ifsc or business_profile.upi_id) %}
+        <div class="payment-section">
+            <div class="section-title">Payment Details</div>
+            <div class="payment-details">
+                {% if business_profile.bank_account_name %}
+                <div class="payment-row">
+                    <div class="payment-label">Account Name:</div>
+                    <div class="payment-value">{{ business_profile.bank_account_name }}</div>
+                </div>
+                {% endif %}
+                {% if business_profile.bank_name %}
+                <div class="payment-row">
+                    <div class="payment-label">Bank Name:</div>
+                    <div class="payment-value">{{ business_profile.bank_name }}</div>
+                </div>
+                {% endif %}
+                {% if business_profile.bank_branch %}
+                <div class="payment-row">
+                    <div class="payment-label">Branch:</div>
+                    <div class="payment-value">{{ business_profile.bank_branch }}</div>
+                </div>
+                {% endif %}
+                {% if business_profile.bank_account_number %}
+                <div class="payment-row">
+                    <div class="payment-label">Account Number:</div>
+                    <div class="payment-value">{{ business_profile.bank_account_number }}</div>
+                </div>
+                {% endif %}
+                {% if business_profile.bank_ifsc %}
+                <div class="payment-row">
+                    <div class="payment-label">IFSC Code:</div>
+                    <div class="payment-value">{{ business_profile.bank_ifsc }}</div>
+                </div>
+                {% endif %}
+                {% if business_profile.upi_id %}
+                <div class="payment-row">
+                    <div class="payment-label">UPI ID:</div>
+                    <div class="payment-value">{{ business_profile.upi_id }}</div>
+                </div>
+                {% endif %}
+                {% if business_profile.accepts_cash and business_profile.accepts_cash.upper() == 'YES' and business_profile.cash_note %}
+                <div class="payment-row">
+                    <div class="payment-label">Cash Payment:</div>
+                    <div class="payment-value">{{ business_profile.cash_note }}</div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Terms and Conditions -->
+        <div class="terms-section">
+            <div class="section-title">Terms & Conditions</div>
+            <div class="terms-content">
+                <p><strong>Default Terms:</strong> {{ business_profile.default_terms if business_profile and business_profile.default_terms else 'Standard payment terms apply. Please pay within the due date.' }}</p>
+                {% if invoice.terms_and_conditions %}
+                <p><strong>Invoice Terms:</strong> {{ invoice.terms_and_conditions }}</p>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Signature -->
+        {% if business_profile and business_profile.signature_path %}
+        <div class="signature-section">
+            <div class="signature-text">Authorized Signatory</div>
+            <img src="{{ business_profile.signature_path }}" alt="Signature" class="signature-image">
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
