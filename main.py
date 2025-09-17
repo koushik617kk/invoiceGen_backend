@@ -2784,6 +2784,69 @@ async def get_all_invoices(
     invoices = db.query(Invoice).all()
     return invoices
 
+@app.get("/admin/dashboard/stats")
+async def get_admin_dashboard_stats(
+    current_admin: str = Depends(get_current_admin),
+    db: Session = Depends(get_db)
+):
+    """Get dashboard statistics for admin panel"""
+    now = datetime.utcnow()
+    today = now.date()
+    thirty_days_ago = now - timedelta(days=30)
+    
+    # User statistics
+    total_users = db.query(User).count()
+    active_users_30_days = db.query(User).filter(
+        User.last_login >= thirty_days_ago
+    ).count()
+    new_users_today = db.query(User).filter(
+        func.date(User.created_at) == today
+    ).count()
+    
+    # Invoice statistics
+    total_invoices = db.query(Invoice).count()
+    total_revenue = db.query(func.sum(Invoice.total)).scalar() or 0
+    invoices_today = db.query(Invoice).filter(
+        func.date(Invoice.created_at) == today
+    ).count()
+    
+    # CA consultation statistics
+    total_ca_requests = db.query(CAScheduling).count()
+    pending_ca_requests = db.query(CAScheduling).filter(
+        CAScheduling.status == 'pending'
+    ).count()
+    
+    # Business types statistics
+    business_types = db.query(
+        User.business_type,
+        func.count(User.id).label('count')
+    ).filter(
+        User.business_type.isnot(None)
+    ).group_by(User.business_type).all()
+    
+    business_types_list = [
+        {"type": bt.business_type, "count": bt.count}
+        for bt in business_types
+    ]
+    
+    return {
+        "users": {
+            "total": total_users,
+            "active_30_days": active_users_30_days,
+            "new_today": new_users_today
+        },
+        "invoices": {
+            "total": total_invoices,
+            "total_revenue": float(total_revenue),
+            "created_today": invoices_today
+        },
+        "ca_consultations": {
+            "total_requests": total_ca_requests,
+            "pending_requests": pending_ca_requests
+        },
+        "business_types": business_types_list
+    }
+
 # Public endpoints for testing (remove in production)
 @app.get("/debug/users")
 async def get_debug_users(db: Session = Depends(get_db)):
